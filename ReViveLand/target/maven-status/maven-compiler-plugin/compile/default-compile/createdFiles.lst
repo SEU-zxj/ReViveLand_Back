@@ -1,4 +1,7 @@
-cn\seu\srtp\ServletDemo1.class
-cn\seu\srtp\ServletDemo2.class
-cn\seu\srtp\LoginServlet.class
-cn\seu\srtp\MyHttpServlet.class
+cn\seu\srtp\servlet\MyHttpServlet.class
+cn\seu\srtp\servlet\ServletDemo2.class
+cn\seu\srtp\servlet\LoginServlet.class
+cn\seu\srtp\jdbc\JDBC_Demo2.class
+cn\seu\srtp\pojo\User.class
+cn\seu\srtp\jdbc\JDBC_Demo1.class
+cn\seu\srtp\servlet\ServletDemo1.class
