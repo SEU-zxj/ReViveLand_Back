@@ -19,10 +19,10 @@ public class MyHttpServlet implements Servlet {
         System.out.println("your method is " + method);
         if("GET".equals(method)){
             //Get请求方式
-            doGet(req, res);
+            doGet(request, response);
         }else if("POST".equals(method)){
             //Post请求方式
-            doPost(req, res);
+            doPost(request, response);
         }else{
             //其他的请求方式
 
@@ -34,17 +34,18 @@ public class MyHttpServlet implements Servlet {
             response.setHeader("Access-Control-Allow-Headers", "Content-Type,Access-Token");
             response.setHeader("Access-Control-Expose-Headers", "*");
             if (request.getMethod().equals("OPTIONS")) {
-                response.setStatus(200);
+                response.setStatus(204);
             }
         }
     }
 
     //交给子类实现Get请求的逻辑
-    protected void doGet(ServletRequest req, ServletResponse res) {
+    protected void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
 
     }
     //交给子类实现Post请求的逻辑
-    protected void doPost(ServletRequest req, ServletResponse res) {
+    protected void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException {
+
     }
 
     @Override
