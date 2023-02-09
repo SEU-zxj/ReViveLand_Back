@@ -1,4 +1,4 @@
-package cn.seu.srtp.jdbc;
+package cn.seu.srtp.test;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

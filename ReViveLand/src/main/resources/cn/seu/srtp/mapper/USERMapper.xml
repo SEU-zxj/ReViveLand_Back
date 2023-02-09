@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--
+    namespace 名称空间
+    <select></select>标签 sql的类型 还有insert，update，delete等标签
+    id 该sql语句的唯一标识
+    resultType 该sql语句的返回类型
+-->
+
+<!--使用ResultMap解决数据库中表的列名与Java中实体类的类名不一致导致的无法完全映射的问题-->
+
+
+<mapper namespace="cn.seu.srtp.mapper.USERMapper">
+
+    <resultMap id="UserResultMap" type="cn.seu.srtp.pojo.User">
+    <!--
+        <id>标签完成主键的映射
+        <result>标签完成其他列名的映射
+     -->
+        <id column="USER_NAME" property="userName" />
+        <result column="PHONE_NUM" property="phoneNumber" />
+        <result column="EMAIL" property="email" />
+        <result column="PASSWORD" property="password" />
+    </resultMap>
+
+    <insert id="Register">
+        INSERT INTO USER (USER_NAME, PHONE_NUM, EMAIL, PASSWORD)
+                    VALUES (#{userName}, #{phoneNumber}, #{email}, #{password});
+    </insert>
+
+    <!--
+        特殊字符的处理： 1. 转义 2. CDATA区
+    -->
+
+    <select id="SelectAllUser" resultMap="UserResultMap">
+        SELECT * FROM USER;
+    </select>
+
+    <select id="SelectByUserName" resultMap="UserResultMap">
+        SELECT * FROM USER WHERE USER_NAME = #{userName};
+    </select>
+
+    <select id="Login" resultMap="UserResultMap">
+        SELECT * FROM USER
+        WHERE USER_NAME = #{userName} AND
+              PASSWORD = #{password};
+    </select>
+</mapper>

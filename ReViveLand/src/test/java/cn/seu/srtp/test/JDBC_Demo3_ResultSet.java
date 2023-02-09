@@ -1,4 +1,4 @@
-package cn.seu.srtp.jdbc;
+package cn.seu.srtp.test;
 
 import cn.seu.srtp.pojo.User;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package cn.seu.srtp.jdbc;
+package cn.seu.srtp.test;
 
 import org.junit.Test;
 
@@ -23,7 +23,7 @@ public class JDBC_Demo2 {
         Connection connection = DriverManager.getConnection(url, username, password);
 
         //3. 定义sql
-        String sql1 = "UPDATE USER SET EMAIL = \'8877@87.com\' WHERE USER_NAME = \'admin\'";
+        String sql1 = "UPDATE USER SET EMAIL = \'8888@88.com\' WHERE USER_NAME = \'admin\'";
 
         String sql2 = "UPDATE USER SET PASSWORD = \'123456\' WHERE USER_NAME = \'admin\'";
 
