@@ -9,6 +9,7 @@ package cn.seu.srtp.mapper;
 import cn.seu.srtp.pojo.User;
 import org.apache.ibatis.annotations.Param;
 
+import java.util.Date;
 import java.util.List;
 
 //具体返回一个对象还是集合要根据sql的语义进行判断
@@ -28,4 +29,28 @@ public interface USERMapper {
     User Login(@Param("userName") String userName, @Param("password") String password);
 
     int Register(User newUser);
+
+    int ChangePassword(@Param("userName") String userName, @Param("newPassword") String newPassword);
+
+    int InsertLoginRecord(@Param("uuid") String uuid, @Param("userName") String userName);
+
+    Date GetLastUpdate(@Param("uuid") String uuid);
+
+    void SetLastUpdate(@Param("uuid") String uuid, @Param("date") String date);
+
+    void SetStatus(@Param("uuid") String uuid, @Param("sleepStatus") String sleepStatus, @Param("exerciseStatus") String exerciseStatus);
+
+    double GetTreeScore(@Param("uuid") String uuid);
+
+    double GetAnimalScore(@Param("uuid") String uuid);
+
+    void SetScore(@Param("uuid") String uuid, @Param("treeScore") double treeScore, @Param("animalScore") double animalScore);
+
+    void AddGameObjectNumber(@Param("uuid") String uuid, @Param("treeNum") int treeNum, @Param("animalNum") int animalNum);
+
+    String GetUserName(@Param("uuid") String uuid);
+
+    String GetSleepStatus(@Param("uuid") String uuid);
+
+    String GetExerciseStatus(@Param("uuid") String uuid);
 }

@@ -1,0 +1,6 @@
+127.0.0.1 - - [11/Feb/2023:15:41:12 +0800] "OPTIONS /ReViveLand/login HTTP/1.1" 204 - http-bio-8080-exec-1 51
+127.0.0.1 - - [11/Feb/2023:15:41:15 +0800] "POST /ReViveLand/login HTTP/1.1" 500 3246 http-bio-8080-exec-2 2956
+127.0.0.1 - - [11/Feb/2023:15:44:18 +0800] "OPTIONS /ReViveLand/login HTTP/1.1" 204 - http-bio-8080-exec-1 38
+127.0.0.1 - - [11/Feb/2023:15:44:20 +0800] "POST /ReViveLand/login HTTP/1.1" 200 66 http-bio-8080-exec-2 2374
+127.0.0.1 - - [11/Feb/2023:16:48:56 +0800] "OPTIONS /ReViveLand/login HTTP/1.1" 204 - http-bio-8080-exec-1 52
+127.0.0.1 - - [11/Feb/2023:16:48:59 +0800] "POST /ReViveLand/login HTTP/1.1" 200 66 http-bio-8080-exec-2 3236

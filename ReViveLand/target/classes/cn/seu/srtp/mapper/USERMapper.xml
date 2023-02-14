@@ -27,9 +27,53 @@
     </resultMap>
 
     <insert id="Register">
-        INSERT INTO USER (USER_NAME, PHONE_NUM, EMAIL, PASSWORD)
-                    VALUES (#{userName}, #{phoneNumber}, #{email}, #{password});
+        INSERT INTO USER (USER_NAME, PHONE_NUM, EMAIL, PASSWORD, LAST_UPDATE)
+                    VALUES (#{userName}, #{phoneNumber}, #{email}, #{password}, '2020-01-01');
     </insert>
+
+    <insert id="InsertLoginRecord">
+        INSERT INTO LOGIN_RECORD (ID, DATE, USER_NAME)
+        VALUES (#{uuid}, (SELECT NOW()), #{userName});
+    </insert>
+
+    <update id="ChangePassword">
+        UPDATE USER
+        SET
+            PASSWORD = #{newPassword}
+        WHERE
+            USER_NAME = #{userName};
+    </update>
+    <update id="SetLastUpdate">
+        UPDATE USER SET LAST_UPDATE = #{date}
+        WHERE USER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid});
+    </update>
+
+    <update id="SetStatus">
+        UPDATE USER
+        SET
+            SLEEP_STATUS = #{sleepStatus},
+            EXERCISE_STATUS = #{exerciseStatus}
+        WHERE
+            USER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid});
+    </update>
+
+    <update id="SetScore">
+        UPDATE PLAYER
+        SET
+            TREE_SCORE = #{treeScore},
+            ANIMAL_SCORE = #{animalScore}
+        WHERE
+            PLAYER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid});
+    </update>
+    <update id="AddGameObjectNumber">
+        UPDATE PLAYER
+        SET
+            TREE_NUM = TREE_NUM + #{treeNum},
+            ANIMAL_NUM = ANIMAL_NUM + #{animalNum}
+        WHERE
+            PLAYER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid});
+    </update>
+
 
     <!--
         特殊字符的处理： 1. 转义 2. CDATA区
@@ -47,5 +91,33 @@
         SELECT * FROM USER
         WHERE USER_NAME = #{userName} AND
               PASSWORD = #{password};
+    </select>
+    <select id="GetLastUpdate" resultType="java.util.Date">
+        SELECT LAST_UPDATE FROM USER AS U
+        WHERE U.USER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid});
+    </select>
+
+    <select id="GetTreeScore" resultType="java.lang.Double">
+        SELECT TREE_SCORE FROM PLAYER
+        WHERE PLAYER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid});
+    </select>
+    <select id="GetAnimalScore" resultType="java.lang.Double">
+        SELECT ANIMAL_SCORE FROM PLAYER
+        WHERE PLAYER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid});
+    </select>
+
+    <select id="GetUserName" resultType="java.lang.String">
+        SELECT USER_NAME FROM LOGIN_RECORD
+        WHERE ID = #{uuid};
+    </select>
+
+    <select id="GetSleepStatus" resultType="java.lang.String">
+        SELECT SLEEP_STATUS FROM USER
+        WHERE USER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid});
+    </select>
+
+    <select id="GetExerciseStatus" resultType="java.lang.String">
+        SELECT EXERCISE_STATUS FROM USER
+        WHERE USER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid});
     </select>
 </mapper>

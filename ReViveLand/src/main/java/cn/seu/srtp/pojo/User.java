@@ -5,6 +5,9 @@ public class User {
     private String phoneNumber;
     private String email;
     private String password;
+    private String sleepStatus;
+    private String exerciseStatus;
+
 
     public User(String userName, String phoneNumber, String email, String password) {
         this.userName = userName;
