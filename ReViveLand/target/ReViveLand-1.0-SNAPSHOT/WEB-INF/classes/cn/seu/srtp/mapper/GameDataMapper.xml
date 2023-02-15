@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.seu.srtp.mapper.GameDataMapper">
+
+    <resultMap id="playerResultMap" type="cn.seu.srtp.pojo.Player">
+        <result column="TREE_NUM" property="treeNum"></result>
+        <result column="ANIMAL_NUM" property="animalNum"></result>
+        <result column="TREE_SCORE" property="treeScore"></result>
+        <result column="ANIMAL_SCORE" property="animalScore"></result>
+    </resultMap>
+
+    <insert id="InsertTree">
+        INSERT INTO TREE (PLAYER_NAME, TYPE, POS_X, POS_Y, POS_Z, GROW_DEGREE)
+        VALUES ((SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid}),
+                #{tree.type},
+                #{tree.pos_x},
+                #{tree.pos_y},
+                #{tree.pos_z},
+                #{tree.growDegree});
+    </insert>
+
+    <insert id="InsertAnimal">
+        INSERT INTO ANIMAL (PLAYER_NAME, TYPE)
+        VALUES ((SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid}),
+                #{animal.type})
+    </insert>
+
+    <select id="GetPlayer" resultMap="playerResultMap">
+        SELECT * FROM PLAYER
+                 WHERE PLAYER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid});
+    </select>
+
+
+</mapper>

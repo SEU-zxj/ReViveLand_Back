@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cn.seu.srtp.test.MyBatisTest" time="7.21" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\University\SRTP\Web\SRTP-ReViveLand_B\ReViveLand\target\test-classes;D:\University\SRTP\Web\SRTP-ReViveLand_B\ReViveLand\target\classes;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\com\alibaba\fastjson\1.2.83\fastjson-1.2.83.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\mybatis\mybatis\3.5.5\mybatis-3.5.5.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\mysql\mysql-connector-java\5.1.34\mysql-connector-java-5.1.34.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\junit\junit\4.10\junit-4.10.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\apache\logging\log4j\log4j-to-slf4j\2.10.0\log4j-to-slf4j-2.10.0.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\commons-fileupload\commons-fileupload\1.3.1\commons-fileupload-1.3.1.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\commons-io\commons-io\2.4\commons-io-2.4.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\com\github\signaflo\timeseries\0.4\timeseries-0.4.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\com\github\signaflo\math\0.4\math-0.4.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\com\github\haifengl\smile-core\1.3.0\smile-core-1.3.0.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\com\github\haifengl\smile-data\1.3.0\smile-data-1.3.0.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\com\github\haifengl\smile-math\1.3.0\smile-math-1.3.0.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\com\github\haifengl\smile-graph\1.3.0\smile-graph-1.3.0.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\com\google\guava\guava\21.0\guava-21.0.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\ejml\all\0.30\all-0.30.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\ejml\core\0.30\core-0.30.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\ejml\dense64\0.30\dense64-0.30.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\ejml\denseC64\0.30\denseC64-0.30.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\ejml\equation\0.30\equation-0.30.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\ejml\simple\0.30\simple-0.30.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\knowm\xchart\xchart\3.2.2\xchart-3.2.2.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.11\VectorGraphics2D-0.11.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\apache\commons\commons-csv\1.4\commons-csv-1.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="D:\SoftWares\JAVA\install_folder\jdk_19\bin"/>
+    <property name="sun.java.command" value="D:\TEMP\surefire4047241533153456227\surefirebooter-20230215162454141_3.jar D:\TEMP\surefire4047241533153456227 2023-02-15T16-24-53_794-jvmRun1 surefire-20230215162454141_1tmp surefire_0-20230215162454141_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\University\SRTP\Web\SRTP-ReViveLand_B\ReViveLand\target\test-classes;D:\University\SRTP\Web\SRTP-ReViveLand_B\ReViveLand\target\classes;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\com\alibaba\fastjson\1.2.83\fastjson-1.2.83.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\mybatis\mybatis\3.5.5\mybatis-3.5.5.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\mysql\mysql-connector-java\5.1.34\mysql-connector-java-5.1.34.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\junit\junit\4.10\junit-4.10.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\apache\logging\log4j\log4j-to-slf4j\2.10.0\log4j-to-slf4j-2.10.0.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\commons-fileupload\commons-fileupload\1.3.1\commons-fileupload-1.3.1.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\commons-io\commons-io\2.4\commons-io-2.4.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\com\github\signaflo\timeseries\0.4\timeseries-0.4.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\com\github\signaflo\math\0.4\math-0.4.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\com\github\haifengl\smile-core\1.3.0\smile-core-1.3.0.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\com\github\haifengl\smile-data\1.3.0\smile-data-1.3.0.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\com\github\haifengl\smile-math\1.3.0\smile-math-1.3.0.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\com\github\haifengl\smile-graph\1.3.0\smile-graph-1.3.0.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\com\google\guava\guava\21.0\guava-21.0.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\ejml\all\0.30\all-0.30.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\ejml\core\0.30\core-0.30.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\ejml\dense64\0.30\dense64-0.30.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\ejml\denseC64\0.30\denseC64-0.30.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\ejml\equation\0.30\equation-0.30.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\ejml\simple\0.30\simple-0.30.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\knowm\xchart\xchart\3.2.2\xchart-3.2.2.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.11\VectorGraphics2D-0.11.jar;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo\org\apache\commons\commons-csv\1.4\commons-csv-1.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\硝基苯"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="D:\SoftWares\JAVA\install_folder\jdk_19"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\University\SRTP\Web\SRTP-ReViveLand_B\ReViveLand"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="D:\TEMP\surefire4047241533153456227\surefirebooter-20230215162454141_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.1+10-21"/>
+    <property name="user.name" value="硝基苯"/>
+    <property name="stdout.encoding" value="GBK"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="D:\TEMP\"/>
+    <property name="idea.version" value="2022.3"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="user.dir" value="D:\University\SRTP\Web\SRTP-ReViveLand_B\ReViveLand"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\SoftWares\JAVA\install_folder\jdk_19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Oculus\Support\oculus-runtime;D:\SoftWares\Unity\Plasticscm_install_folder\server;D:\SoftWares\Unity\Plasticscm_install_folder\client;D:\SoftWares\NVIDIA\CUDA\CUDA_11.3\CUDA_Development\bin;D:\SoftWares\NVIDIA\CUDA\CUDA_11.3\CUDA_Development\libnvvp;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jre1.8.0_201\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\Git\cmd;C:\Program Files (x86)\Wolfram Research\WolframScript\;D:\Windows Kits\10\Windows Performance Toolkit\;d:\softwares\altera\quartus\install_folder\quartus\bin;D:\SoftWares\QT\Qt5.12.1\5.12.1\android_arm64_v8a\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;D:\SoftWares\Latex\download\texlive\2021\bin\win32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\SoftWares\MatLab\install_folder\bin;D:\SoftWares\Git\install_folder\Git\cmd;D:\SoftWares\Cmake\install_folder\bin;D:\SoftWares\nodejs\install_folder\;D:\SoftWares\Python\install_folder\Scripts;C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.1.0\;D:\SoftWares\MySQL\MySQL_sever\install\bin;D:\SoftWares\Wechat_dev\install_folder\微信web开发者工具\dll;D:\SoftWares\graphviz\install_folder\Graphviz\bin;D:\SoftWares\JAVA\install_folder\jdk_19\bin;D:\SoftWares\JAVA\install_folder\jdk_19\jre\bin;D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\bin;D:\SoftWares\Python\install_folder\;D:\SoftWares\MinGW\install_folder\bin;D:\SoftWares\VSCode\VSCode\Microsoft VS Code\bin;C:\Users\硝基苯\AppData\Local\GitHubDesktop\bin;D:\SoftWares\Make\install_folder\GnuWin32\bin;D:\SoftWares\OPENCV\install_folder\opencv\build\x64\vc14\bin;D:\SoftWares\OPENCV\install_folder\opencv\build\x64\vc15\bin;D:\SoftWares\wget\download;D:\SoftWares\nodejs\install_folder\node_global;D:\SoftWares\MindStudio\install_folder\MindStudio 5.0.RC2\bin;;D:\SoftWares\Python\install_folder\Scripts;D:\SoftWares\Wechat_dev\install_folder\微信web开发者工具\dll;;D:\SoftWares\IDEA\install_folder\IntelliJ IDEA 2022.3\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="GBK"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.1+10-21"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="D:\SoftWares\Maven\install_folder\apache-maven-3.9.0\maven_repo"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="TestSelectAllUser" classname="cn.seu.srtp.test.MyBatisTest" time="1.244">
+    <system-out><![CDATA[2023-02-15 16:24:54  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-02-15 16:24:54  [ main:6 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2023-02-15 16:24:54  [ main:6 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2023-02-15 16:24:54  [ main:7 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2023-02-15 16:24:54  [ main:8 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2023-02-15 16:24:54  [ main:8 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2023-02-15 16:24:54  [ main:9 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:54  [ main:9 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:54  [ main:47 ] - [ DEBUG ]  Reader entry: Advice.class
+2023-02-15 16:24:54  [ main:48 ] - [ DEBUG ]  Reader entry: Animal.class
+2023-02-15 16:24:54  [ main:48 ] - [ DEBUG ]  Reader entry: HealthDataItem.class
+2023-02-15 16:24:54  [ main:48 ] - [ DEBUG ]  Reader entry: MyTree.class
+2023-02-15 16:24:54  [ main:49 ] - [ DEBUG ]  Reader entry: Player.class
+2023-02-15 16:24:54  [ main:49 ] - [ DEBUG ]  Reader entry: User.class
+2023-02-15 16:24:54  [ main:49 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:54  [ main:49 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:24:54  [ main:49 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:24:54  [ main:51 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;'
+2023-02-15 16:24:54  [ main:52 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:24:54  [ main:53 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:24:54  [ main:54 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;4
+2023-02-15 16:24:54  [ main:55 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:24:54  [ main:55 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:24:54  [ main:55 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;r
+2023-02-15 16:24:54  [ main:56 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:24:54  [ main:56 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:24:54  [ main:57 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;W
+2023-02-15 16:24:54  [ main:58 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:24:54  [ main:58 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:24:54  [ main:59 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;F
+2023-02-15 16:24:54  [ main:59 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:24:54  [ main:59 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:24:54  [ main:60 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;?
+2023-02-15 16:24:54  [ main:62 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Advice matches criteria [is assignable to Object]
+2023-02-15 16:24:54  [ main:63 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Animal matches criteria [is assignable to Object]
+2023-02-15 16:24:54  [ main:64 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.HealthDataItem matches criteria [is assignable to Object]
+2023-02-15 16:24:54  [ main:65 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.MyTree matches criteria [is assignable to Object]
+2023-02-15 16:24:54  [ main:66 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Player matches criteria [is assignable to Object]
+2023-02-15 16:24:54  [ main:66 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.User matches criteria [is assignable to Object]
+2023-02-15 16:24:54  [ main:112 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:54  [ main:112 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:54  [ main:113 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:54  [ main:113 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:54  [ main:116 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:54  [ main:116 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:54  [ main:118 ] - [ DEBUG ]  Reader entry: GameDataMapper.class
+2023-02-15 16:24:54  [ main:119 ] - [ DEBUG ]  Reader entry: GameDataMapper.xml
+2023-02-15 16:24:54  [ main:119 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.class
+2023-02-15 16:24:54  [ main:120 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.xml
+2023-02-15 16:24:54  [ main:120 ] - [ DEBUG ]  Reader entry: USERMapper.class
+2023-02-15 16:24:54  [ main:121 ] - [ DEBUG ]  Reader entry: USERMapper.xml
+2023-02-15 16:24:54  [ main:121 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:54  [ main:121 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:24:54  [ main:121 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:24:54  [ main:122 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#19;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;!cn/seu/srtp/mapper/GameDataMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:24:54  [ main:123 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:24:54  [ main:123 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:24:54  [ main:124 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:54  [ main:125 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:24:54  [ main:125 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:24:54  [ main:126 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#27;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;$cn/seu/srtp/mapper/HEALTH_DATAMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;&amp#20;InsertHealthDataItem&amp#1;&amp#0;6(Ljava/lang/String;Lcn/seu/srtp/pojo/HealthDataItem;)V&amp#1;&amp#0;"RuntimeVisibleParameterAnnotations&amp#1;&amp#0;%Lorg/apache/ibatis/annotations/Param;&amp#1;&amp#0;&amp#5;value&amp#1;&amp#0;&amp#4;uuid&amp#1;&amp#0;&amp#4;item&amp#1;&amp#0;&amp#27;SelectRecentWalkingDistance&amp#1;&amp#0;$(Ljava/lang/String;)Ljava/util/List;&amp#1;&amp#0;	Signature&amp#1;&amp#0;8(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Double;>;&amp#1;&amp#0;&amp#23;SelectRecentWalkingTime&amp#1;&amp#0;9(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Integer;>;&amp#1;&amp#0;&amp#23;SelectRecentRunningTime&amp#1;&amp#0;&amp#24;SelectRecentBreathExTime&amp#1;&amp#0;&amp#24;SelectRecentSleepingTime&amp#1;&amp#0;	GetAdvice&amp#1;&amp#0;?(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/Advice;>;&amp#1;&amp#0;&amp#18;GetHealthDataItems&amp#1;&amp#0;G(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/HealthDataItem;>;&amp#1;&amp#0;
+2023-02-15 16:24:54  [ main:127 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:24:54  [ main:127 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:24:54  [ main:128 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:54  [ main:129 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:24:54  [ main:129 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:24:54  [ main:129 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;3&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;&amp#29;cn/seu/srtp/mapper/USERMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:24:54  [ main:130 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:24:54  [ main:130 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:24:54  [ main:130 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:54  [ main:131 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.GameDataMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:54  [ main:132 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.HEALTH_DATAMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:54  [ main:132 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.USERMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:55  [ main:255 ] - [ DEBUG ]  Opening JDBC Connection
+2023-02-15 16:24:55  [ main:841 ] - [ DEBUG ]  Created connection 1822525972.
+2023-02-15 16:24:55  [ main:843 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ca18a14]
+2023-02-15 16:24:55  [ main:885 ] - [ DEBUG ]  ==>  Preparing: SELECT * FROM USER;
+2023-02-15 16:24:55  [ main:925 ] - [ DEBUG ]  ==> Parameters: 
+2023-02-15 16:24:55  [ main:991 ] - [ DEBUG ]  <==      Total: 2
+[User{userName='admin', phoneNumber='88888888', email='8888@88.com', password='097157'}, User{userName='testUser', phoneNumber='15850661098', email='2720611814@qq.com', password='097157'}]
+2023-02-15 16:24:55  [ main:993 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ca18a14]
+2023-02-15 16:24:55  [ main:1030 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ca18a14]
+2023-02-15 16:24:55  [ main:1030 ] - [ DEBUG ]  Returned connection 1822525972 to pool.
+]]></system-out>
+  </testcase>
+  <testcase name="TestRegister" classname="cn.seu.srtp.test.MyBatisTest" time="0.424">
+    <system-out><![CDATA[2023-02-15 16:24:55  [ main:1039 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:55  [ main:1039 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:55  [ main:1040 ] - [ DEBUG ]  Reader entry: Advice.class
+2023-02-15 16:24:55  [ main:1040 ] - [ DEBUG ]  Reader entry: Animal.class
+2023-02-15 16:24:55  [ main:1040 ] - [ DEBUG ]  Reader entry: HealthDataItem.class
+2023-02-15 16:24:55  [ main:1041 ] - [ DEBUG ]  Reader entry: MyTree.class
+2023-02-15 16:24:55  [ main:1041 ] - [ DEBUG ]  Reader entry: Player.class
+2023-02-15 16:24:55  [ main:1041 ] - [ DEBUG ]  Reader entry: User.class
+2023-02-15 16:24:55  [ main:1041 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:55  [ main:1042 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:24:55  [ main:1042 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:24:55  [ main:1043 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;'
+2023-02-15 16:24:55  [ main:1043 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:24:55  [ main:1043 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:24:55  [ main:1044 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;4
+2023-02-15 16:24:55  [ main:1044 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:24:55  [ main:1044 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:24:55  [ main:1045 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;r
+2023-02-15 16:24:55  [ main:1045 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:24:55  [ main:1045 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:24:55  [ main:1046 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;W
+2023-02-15 16:24:55  [ main:1046 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:24:55  [ main:1047 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:24:55  [ main:1047 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;F
+2023-02-15 16:24:55  [ main:1048 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:24:55  [ main:1048 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:24:55  [ main:1049 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;?
+2023-02-15 16:24:55  [ main:1049 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Advice matches criteria [is assignable to Object]
+2023-02-15 16:24:55  [ main:1049 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Animal matches criteria [is assignable to Object]
+2023-02-15 16:24:55  [ main:1049 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.HealthDataItem matches criteria [is assignable to Object]
+2023-02-15 16:24:55  [ main:1049 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.MyTree matches criteria [is assignable to Object]
+2023-02-15 16:24:55  [ main:1049 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Player matches criteria [is assignable to Object]
+2023-02-15 16:24:55  [ main:1050 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.User matches criteria [is assignable to Object]
+2023-02-15 16:24:55  [ main:1052 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:55  [ main:1052 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:55  [ main:1052 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:55  [ main:1052 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:55  [ main:1053 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:55  [ main:1053 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:55  [ main:1055 ] - [ DEBUG ]  Reader entry: GameDataMapper.class
+2023-02-15 16:24:55  [ main:1055 ] - [ DEBUG ]  Reader entry: GameDataMapper.xml
+2023-02-15 16:24:55  [ main:1055 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.class
+2023-02-15 16:24:55  [ main:1055 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.xml
+2023-02-15 16:24:55  [ main:1055 ] - [ DEBUG ]  Reader entry: USERMapper.class
+2023-02-15 16:24:55  [ main:1056 ] - [ DEBUG ]  Reader entry: USERMapper.xml
+2023-02-15 16:24:55  [ main:1056 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:55  [ main:1056 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:24:55  [ main:1056 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:24:55  [ main:1057 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#19;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;!cn/seu/srtp/mapper/GameDataMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:24:55  [ main:1058 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:24:55  [ main:1058 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:24:55  [ main:1058 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:55  [ main:1059 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:24:55  [ main:1059 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:24:55  [ main:1059 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#27;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;$cn/seu/srtp/mapper/HEALTH_DATAMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;&amp#20;InsertHealthDataItem&amp#1;&amp#0;6(Ljava/lang/String;Lcn/seu/srtp/pojo/HealthDataItem;)V&amp#1;&amp#0;"RuntimeVisibleParameterAnnotations&amp#1;&amp#0;%Lorg/apache/ibatis/annotations/Param;&amp#1;&amp#0;&amp#5;value&amp#1;&amp#0;&amp#4;uuid&amp#1;&amp#0;&amp#4;item&amp#1;&amp#0;&amp#27;SelectRecentWalkingDistance&amp#1;&amp#0;$(Ljava/lang/String;)Ljava/util/List;&amp#1;&amp#0;	Signature&amp#1;&amp#0;8(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Double;>;&amp#1;&amp#0;&amp#23;SelectRecentWalkingTime&amp#1;&amp#0;9(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Integer;>;&amp#1;&amp#0;&amp#23;SelectRecentRunningTime&amp#1;&amp#0;&amp#24;SelectRecentBreathExTime&amp#1;&amp#0;&amp#24;SelectRecentSleepingTime&amp#1;&amp#0;	GetAdvice&amp#1;&amp#0;?(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/Advice;>;&amp#1;&amp#0;&amp#18;GetHealthDataItems&amp#1;&amp#0;G(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/HealthDataItem;>;&amp#1;&amp#0;
+2023-02-15 16:24:55  [ main:1061 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:24:55  [ main:1061 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:24:55  [ main:1061 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:55  [ main:1062 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:24:55  [ main:1062 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:24:55  [ main:1063 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;3&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;&amp#29;cn/seu/srtp/mapper/USERMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:24:55  [ main:1063 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:24:55  [ main:1063 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:24:55  [ main:1064 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:55  [ main:1065 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.GameDataMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:55  [ main:1065 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.HEALTH_DATAMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:55  [ main:1065 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.USERMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:55  [ main:1107 ] - [ DEBUG ]  Opening JDBC Connection
+2023-02-15 16:24:56  [ main:1355 ] - [ DEBUG ]  Created connection 1935122449.
+2023-02-15 16:24:56  [ main:1356 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7357a011]
+2023-02-15 16:24:56  [ main:1385 ] - [ DEBUG ]  ==>  Preparing: SELECT * FROM USER WHERE USER_NAME = ?;
+2023-02-15 16:24:56  [ main:1388 ] - [ DEBUG ]  ==> Parameters: testUser(String)
+2023-02-15 16:24:56  [ main:1418 ] - [ DEBUG ]  <==      Total: 1
+exist
+2023-02-15 16:24:56  [ main:1418 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7357a011]
+2023-02-15 16:24:56  [ main:1457 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7357a011]
+2023-02-15 16:24:56  [ main:1457 ] - [ DEBUG ]  Returned connection 1935122449 to pool.
+]]></system-out>
+  </testcase>
+  <testcase name="TestLogin" classname="cn.seu.srtp.test.MyBatisTest" time="0.53">
+    <system-out><![CDATA[2023-02-15 16:24:56  [ main:1467 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:56  [ main:1467 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:56  [ main:1468 ] - [ DEBUG ]  Reader entry: Advice.class
+2023-02-15 16:24:56  [ main:1469 ] - [ DEBUG ]  Reader entry: Animal.class
+2023-02-15 16:24:56  [ main:1469 ] - [ DEBUG ]  Reader entry: HealthDataItem.class
+2023-02-15 16:24:56  [ main:1469 ] - [ DEBUG ]  Reader entry: MyTree.class
+2023-02-15 16:24:56  [ main:1470 ] - [ DEBUG ]  Reader entry: Player.class
+2023-02-15 16:24:56  [ main:1470 ] - [ DEBUG ]  Reader entry: User.class
+2023-02-15 16:24:56  [ main:1470 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:56  [ main:1470 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:24:56  [ main:1471 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:24:56  [ main:1472 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;'
+2023-02-15 16:24:56  [ main:1472 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:24:56  [ main:1472 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:24:56  [ main:1473 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;4
+2023-02-15 16:24:56  [ main:1474 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:24:56  [ main:1474 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:24:56  [ main:1475 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;r
+2023-02-15 16:24:56  [ main:1475 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:24:56  [ main:1475 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:24:56  [ main:1476 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;W
+2023-02-15 16:24:56  [ main:1477 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:24:56  [ main:1477 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:24:56  [ main:1478 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;F
+2023-02-15 16:24:56  [ main:1479 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:24:56  [ main:1479 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:24:56  [ main:1480 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;?
+2023-02-15 16:24:56  [ main:1480 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Advice matches criteria [is assignable to Object]
+2023-02-15 16:24:56  [ main:1481 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Animal matches criteria [is assignable to Object]
+2023-02-15 16:24:56  [ main:1481 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.HealthDataItem matches criteria [is assignable to Object]
+2023-02-15 16:24:56  [ main:1481 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.MyTree matches criteria [is assignable to Object]
+2023-02-15 16:24:56  [ main:1481 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Player matches criteria [is assignable to Object]
+2023-02-15 16:24:56  [ main:1482 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.User matches criteria [is assignable to Object]
+2023-02-15 16:24:56  [ main:1486 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:56  [ main:1487 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:56  [ main:1487 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:56  [ main:1488 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:56  [ main:1489 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:56  [ main:1489 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:56  [ main:1492 ] - [ DEBUG ]  Reader entry: GameDataMapper.class
+2023-02-15 16:24:56  [ main:1493 ] - [ DEBUG ]  Reader entry: GameDataMapper.xml
+2023-02-15 16:24:56  [ main:1493 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.class
+2023-02-15 16:24:56  [ main:1495 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.xml
+2023-02-15 16:24:56  [ main:1496 ] - [ DEBUG ]  Reader entry: USERMapper.class
+2023-02-15 16:24:56  [ main:1497 ] - [ DEBUG ]  Reader entry: USERMapper.xml
+2023-02-15 16:24:56  [ main:1497 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:56  [ main:1497 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:24:56  [ main:1498 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:24:56  [ main:1499 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#19;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;!cn/seu/srtp/mapper/GameDataMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:24:56  [ main:1500 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:24:56  [ main:1500 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:24:56  [ main:1502 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:56  [ main:1502 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:24:56  [ main:1502 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:24:56  [ main:1503 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#27;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;$cn/seu/srtp/mapper/HEALTH_DATAMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;&amp#20;InsertHealthDataItem&amp#1;&amp#0;6(Ljava/lang/String;Lcn/seu/srtp/pojo/HealthDataItem;)V&amp#1;&amp#0;"RuntimeVisibleParameterAnnotations&amp#1;&amp#0;%Lorg/apache/ibatis/annotations/Param;&amp#1;&amp#0;&amp#5;value&amp#1;&amp#0;&amp#4;uuid&amp#1;&amp#0;&amp#4;item&amp#1;&amp#0;&amp#27;SelectRecentWalkingDistance&amp#1;&amp#0;$(Ljava/lang/String;)Ljava/util/List;&amp#1;&amp#0;	Signature&amp#1;&amp#0;8(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Double;>;&amp#1;&amp#0;&amp#23;SelectRecentWalkingTime&amp#1;&amp#0;9(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Integer;>;&amp#1;&amp#0;&amp#23;SelectRecentRunningTime&amp#1;&amp#0;&amp#24;SelectRecentBreathExTime&amp#1;&amp#0;&amp#24;SelectRecentSleepingTime&amp#1;&amp#0;	GetAdvice&amp#1;&amp#0;?(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/Advice;>;&amp#1;&amp#0;&amp#18;GetHealthDataItems&amp#1;&amp#0;G(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/HealthDataItem;>;&amp#1;&amp#0;
+2023-02-15 16:24:56  [ main:1504 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:24:56  [ main:1504 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:24:56  [ main:1504 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:56  [ main:1505 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:24:56  [ main:1505 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:24:56  [ main:1506 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;3&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;&amp#29;cn/seu/srtp/mapper/USERMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:24:56  [ main:1506 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:24:56  [ main:1506 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:24:56  [ main:1507 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:56  [ main:1507 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.GameDataMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:56  [ main:1507 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.HEALTH_DATAMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:56  [ main:1507 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.USERMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:56  [ main:1551 ] - [ DEBUG ]  Opening JDBC Connection
+2023-02-15 16:24:56  [ main:1870 ] - [ DEBUG ]  Created connection 33233312.
+2023-02-15 16:24:56  [ main:1871 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1fb19a0]
+2023-02-15 16:24:56  [ main:1905 ] - [ DEBUG ]  ==>  Preparing: SELECT * FROM USER WHERE USER_NAME = ? AND PASSWORD = ?;
+2023-02-15 16:24:56  [ main:1906 ] - [ DEBUG ]  ==> Parameters: admin(String), 123456(String)
+2023-02-15 16:24:56  [ main:1952 ] - [ DEBUG ]  <==      Total: 0
+null
+2023-02-15 16:24:56  [ main:1952 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1fb19a0]
+2023-02-15 16:24:56  [ main:1987 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1fb19a0]
+2023-02-15 16:24:56  [ main:1988 ] - [ DEBUG ]  Returned connection 33233312 to pool.
+]]></system-out>
+  </testcase>
+  <testcase name="TestChangePassword" classname="cn.seu.srtp.test.MyBatisTest" time="0.582">
+    <system-out><![CDATA[2023-02-15 16:24:56  [ main:1993 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:56  [ main:1993 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:56  [ main:1994 ] - [ DEBUG ]  Reader entry: Advice.class
+2023-02-15 16:24:56  [ main:1995 ] - [ DEBUG ]  Reader entry: Animal.class
+2023-02-15 16:24:56  [ main:1995 ] - [ DEBUG ]  Reader entry: HealthDataItem.class
+2023-02-15 16:24:56  [ main:1995 ] - [ DEBUG ]  Reader entry: MyTree.class
+2023-02-15 16:24:56  [ main:1995 ] - [ DEBUG ]  Reader entry: Player.class
+2023-02-15 16:24:56  [ main:1995 ] - [ DEBUG ]  Reader entry: User.class
+2023-02-15 16:24:56  [ main:1996 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:56  [ main:1996 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:24:56  [ main:1996 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:24:56  [ main:1997 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;'
+2023-02-15 16:24:56  [ main:1997 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:24:56  [ main:1997 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:24:56  [ main:1998 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;4
+2023-02-15 16:24:56  [ main:1998 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:24:56  [ main:1998 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:24:56  [ main:1999 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;r
+2023-02-15 16:24:56  [ main:1999 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:24:56  [ main:1999 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:24:56  [ main:2000 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;W
+2023-02-15 16:24:56  [ main:2000 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:24:56  [ main:2000 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:24:56  [ main:2001 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;F
+2023-02-15 16:24:56  [ main:2001 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:24:56  [ main:2001 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:24:56  [ main:2002 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;?
+2023-02-15 16:24:56  [ main:2002 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Advice matches criteria [is assignable to Object]
+2023-02-15 16:24:56  [ main:2002 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Animal matches criteria [is assignable to Object]
+2023-02-15 16:24:56  [ main:2002 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.HealthDataItem matches criteria [is assignable to Object]
+2023-02-15 16:24:56  [ main:2002 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.MyTree matches criteria [is assignable to Object]
+2023-02-15 16:24:56  [ main:2002 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Player matches criteria [is assignable to Object]
+2023-02-15 16:24:56  [ main:2002 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.User matches criteria [is assignable to Object]
+2023-02-15 16:24:56  [ main:2004 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:56  [ main:2004 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:56  [ main:2004 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:56  [ main:2004 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:56  [ main:2005 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:56  [ main:2005 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:56  [ main:2006 ] - [ DEBUG ]  Reader entry: GameDataMapper.class
+2023-02-15 16:24:56  [ main:2006 ] - [ DEBUG ]  Reader entry: GameDataMapper.xml
+2023-02-15 16:24:56  [ main:2006 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.class
+2023-02-15 16:24:56  [ main:2007 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.xml
+2023-02-15 16:24:56  [ main:2007 ] - [ DEBUG ]  Reader entry: USERMapper.class
+2023-02-15 16:24:56  [ main:2007 ] - [ DEBUG ]  Reader entry: USERMapper.xml
+2023-02-15 16:24:56  [ main:2007 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:56  [ main:2007 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:24:56  [ main:2007 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:24:56  [ main:2008 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#19;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;!cn/seu/srtp/mapper/GameDataMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:24:56  [ main:2008 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:24:56  [ main:2008 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:24:56  [ main:2008 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:56  [ main:2008 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:24:56  [ main:2009 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:24:56  [ main:2009 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#27;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;$cn/seu/srtp/mapper/HEALTH_DATAMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;&amp#20;InsertHealthDataItem&amp#1;&amp#0;6(Ljava/lang/String;Lcn/seu/srtp/pojo/HealthDataItem;)V&amp#1;&amp#0;"RuntimeVisibleParameterAnnotations&amp#1;&amp#0;%Lorg/apache/ibatis/annotations/Param;&amp#1;&amp#0;&amp#5;value&amp#1;&amp#0;&amp#4;uuid&amp#1;&amp#0;&amp#4;item&amp#1;&amp#0;&amp#27;SelectRecentWalkingDistance&amp#1;&amp#0;$(Ljava/lang/String;)Ljava/util/List;&amp#1;&amp#0;	Signature&amp#1;&amp#0;8(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Double;>;&amp#1;&amp#0;&amp#23;SelectRecentWalkingTime&amp#1;&amp#0;9(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Integer;>;&amp#1;&amp#0;&amp#23;SelectRecentRunningTime&amp#1;&amp#0;&amp#24;SelectRecentBreathExTime&amp#1;&amp#0;&amp#24;SelectRecentSleepingTime&amp#1;&amp#0;	GetAdvice&amp#1;&amp#0;?(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/Advice;>;&amp#1;&amp#0;&amp#18;GetHealthDataItems&amp#1;&amp#0;G(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/HealthDataItem;>;&amp#1;&amp#0;
+2023-02-15 16:24:56  [ main:2010 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:24:56  [ main:2010 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:24:56  [ main:2011 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:56  [ main:2011 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:24:56  [ main:2011 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:24:56  [ main:2011 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;3&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;&amp#29;cn/seu/srtp/mapper/USERMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:24:56  [ main:2012 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:24:56  [ main:2012 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:24:56  [ main:2012 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:56  [ main:2012 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.GameDataMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:56  [ main:2012 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.HEALTH_DATAMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:56  [ main:2012 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.USERMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:56  [ main:2036 ] - [ DEBUG ]  Opening JDBC Connection
+2023-02-15 16:24:57  [ main:2361 ] - [ DEBUG ]  Created connection 1394940518.
+2023-02-15 16:24:57  [ main:2361 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@53251a66]
+2023-02-15 16:24:57  [ main:2399 ] - [ DEBUG ]  ==>  Preparing: SELECT * FROM USER WHERE USER_NAME = ?;
+2023-02-15 16:24:57  [ main:2399 ] - [ DEBUG ]  ==> Parameters: admin(String)
+2023-02-15 16:24:57  [ main:2432 ] - [ DEBUG ]  <==      Total: 1
+2023-02-15 16:24:57  [ main:2433 ] - [ DEBUG ]  ==>  Preparing: UPDATE USER SET PASSWORD = ? WHERE USER_NAME = ?;
+2023-02-15 16:24:57  [ main:2433 ] - [ DEBUG ]  ==> Parameters: 097157(String), admin(String)
+2023-02-15 16:24:57  [ main:2502 ] - [ DEBUG ]  <==    Updates: 1
+2023-02-15 16:24:57  [ main:2502 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@53251a66]
+password changed! and count = 1
+2023-02-15 16:24:57  [ main:2540 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@53251a66]
+2023-02-15 16:24:57  [ main:2570 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@53251a66]
+2023-02-15 16:24:57  [ main:2570 ] - [ DEBUG ]  Returned connection 1394940518 to pool.
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetLastUpdate" classname="cn.seu.srtp.test.MyBatisTest" time="0.699">
+    <system-out><![CDATA[2023-02-15 16:24:57  [ main:2575 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:57  [ main:2575 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:57  [ main:2576 ] - [ DEBUG ]  Reader entry: Advice.class
+2023-02-15 16:24:57  [ main:2576 ] - [ DEBUG ]  Reader entry: Animal.class
+2023-02-15 16:24:57  [ main:2576 ] - [ DEBUG ]  Reader entry: HealthDataItem.class
+2023-02-15 16:24:57  [ main:2576 ] - [ DEBUG ]  Reader entry: MyTree.class
+2023-02-15 16:24:57  [ main:2576 ] - [ DEBUG ]  Reader entry: Player.class
+2023-02-15 16:24:57  [ main:2576 ] - [ DEBUG ]  Reader entry: User.class
+2023-02-15 16:24:57  [ main:2576 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:57  [ main:2576 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:24:57  [ main:2576 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:24:57  [ main:2577 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;'
+2023-02-15 16:24:57  [ main:2577 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:24:57  [ main:2577 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:24:57  [ main:2578 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;4
+2023-02-15 16:24:57  [ main:2578 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:24:57  [ main:2578 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:24:57  [ main:2578 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;r
+2023-02-15 16:24:57  [ main:2578 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:24:57  [ main:2578 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:24:57  [ main:2579 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;W
+2023-02-15 16:24:57  [ main:2579 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:24:57  [ main:2579 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:24:57  [ main:2580 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;F
+2023-02-15 16:24:57  [ main:2580 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:24:57  [ main:2580 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:24:57  [ main:2580 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;?
+2023-02-15 16:24:57  [ main:2580 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Advice matches criteria [is assignable to Object]
+2023-02-15 16:24:57  [ main:2580 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Animal matches criteria [is assignable to Object]
+2023-02-15 16:24:57  [ main:2580 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.HealthDataItem matches criteria [is assignable to Object]
+2023-02-15 16:24:57  [ main:2580 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.MyTree matches criteria [is assignable to Object]
+2023-02-15 16:24:57  [ main:2580 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Player matches criteria [is assignable to Object]
+2023-02-15 16:24:57  [ main:2581 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.User matches criteria [is assignable to Object]
+2023-02-15 16:24:57  [ main:2582 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:57  [ main:2583 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:57  [ main:2583 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:57  [ main:2583 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:57  [ main:2583 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:57  [ main:2584 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:57  [ main:2584 ] - [ DEBUG ]  Reader entry: GameDataMapper.class
+2023-02-15 16:24:57  [ main:2585 ] - [ DEBUG ]  Reader entry: GameDataMapper.xml
+2023-02-15 16:24:57  [ main:2585 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.class
+2023-02-15 16:24:57  [ main:2585 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.xml
+2023-02-15 16:24:57  [ main:2585 ] - [ DEBUG ]  Reader entry: USERMapper.class
+2023-02-15 16:24:57  [ main:2585 ] - [ DEBUG ]  Reader entry: USERMapper.xml
+2023-02-15 16:24:57  [ main:2585 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:57  [ main:2585 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:24:57  [ main:2585 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:24:57  [ main:2586 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#19;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;!cn/seu/srtp/mapper/GameDataMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:24:57  [ main:2586 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:24:57  [ main:2586 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:24:57  [ main:2587 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:57  [ main:2587 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:24:57  [ main:2588 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:24:57  [ main:2588 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#27;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;$cn/seu/srtp/mapper/HEALTH_DATAMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;&amp#20;InsertHealthDataItem&amp#1;&amp#0;6(Ljava/lang/String;Lcn/seu/srtp/pojo/HealthDataItem;)V&amp#1;&amp#0;"RuntimeVisibleParameterAnnotations&amp#1;&amp#0;%Lorg/apache/ibatis/annotations/Param;&amp#1;&amp#0;&amp#5;value&amp#1;&amp#0;&amp#4;uuid&amp#1;&amp#0;&amp#4;item&amp#1;&amp#0;&amp#27;SelectRecentWalkingDistance&amp#1;&amp#0;$(Ljava/lang/String;)Ljava/util/List;&amp#1;&amp#0;	Signature&amp#1;&amp#0;8(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Double;>;&amp#1;&amp#0;&amp#23;SelectRecentWalkingTime&amp#1;&amp#0;9(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Integer;>;&amp#1;&amp#0;&amp#23;SelectRecentRunningTime&amp#1;&amp#0;&amp#24;SelectRecentBreathExTime&amp#1;&amp#0;&amp#24;SelectRecentSleepingTime&amp#1;&amp#0;	GetAdvice&amp#1;&amp#0;?(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/Advice;>;&amp#1;&amp#0;&amp#18;GetHealthDataItems&amp#1;&amp#0;G(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/HealthDataItem;>;&amp#1;&amp#0;
+2023-02-15 16:24:57  [ main:2589 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:24:57  [ main:2589 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:24:57  [ main:2590 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:57  [ main:2591 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:24:57  [ main:2591 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:24:57  [ main:2592 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;3&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;&amp#29;cn/seu/srtp/mapper/USERMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:24:57  [ main:2592 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:24:57  [ main:2592 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:24:57  [ main:2593 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:57  [ main:2594 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.GameDataMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:57  [ main:2594 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.HEALTH_DATAMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:57  [ main:2594 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.USERMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:57  [ main:2628 ] - [ DEBUG ]  Opening JDBC Connection
+2023-02-15 16:24:57  [ main:3054 ] - [ DEBUG ]  Created connection 2099802038.
+2023-02-15 16:24:57  [ main:3054 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7d286fb6]
+2023-02-15 16:24:57  [ main:3105 ] - [ DEBUG ]  ==>  Preparing: UPDATE USER SET LAST_UPDATE = ? WHERE USER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = ?);
+2023-02-15 16:24:57  [ main:3105 ] - [ DEBUG ]  ==> Parameters: 2020-01-01(String), 2da2666e-d717-4141-8ec2-0209ddc62a98(String)
+2023-02-15 16:24:57  [ main:3185 ] - [ DEBUG ]  <==    Updates: 1
+2023-02-15 16:24:57  [ main:3185 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7d286fb6]
+2023-02-15 16:24:58  [ main:3231 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7d286fb6]
+2023-02-15 16:24:58  [ main:3269 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7d286fb6]
+2023-02-15 16:24:58  [ main:3269 ] - [ DEBUG ]  Returned connection 2099802038 to pool.
+]]></system-out>
+  </testcase>
+  <testcase name="TestInsertLoginRecord" classname="cn.seu.srtp.test.MyBatisTest" time="0.634">
+    <system-out><![CDATA[2023-02-15 16:24:58  [ main:3322 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:58  [ main:3322 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:58  [ main:3323 ] - [ DEBUG ]  Reader entry: Advice.class
+2023-02-15 16:24:58  [ main:3323 ] - [ DEBUG ]  Reader entry: Animal.class
+2023-02-15 16:24:58  [ main:3323 ] - [ DEBUG ]  Reader entry: HealthDataItem.class
+2023-02-15 16:24:58  [ main:3323 ] - [ DEBUG ]  Reader entry: MyTree.class
+2023-02-15 16:24:58  [ main:3323 ] - [ DEBUG ]  Reader entry: Player.class
+2023-02-15 16:24:58  [ main:3323 ] - [ DEBUG ]  Reader entry: User.class
+2023-02-15 16:24:58  [ main:3324 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:58  [ main:3324 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:24:58  [ main:3324 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:24:58  [ main:3324 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;'
+2023-02-15 16:24:58  [ main:3324 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:24:58  [ main:3325 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:24:58  [ main:3325 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;4
+2023-02-15 16:24:58  [ main:3325 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:24:58  [ main:3325 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:24:58  [ main:3326 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;r
+2023-02-15 16:24:58  [ main:3326 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:24:58  [ main:3326 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:24:58  [ main:3327 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;W
+2023-02-15 16:24:58  [ main:3327 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:24:58  [ main:3327 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:24:58  [ main:3327 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;F
+2023-02-15 16:24:58  [ main:3327 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:24:58  [ main:3327 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:24:58  [ main:3328 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;?
+2023-02-15 16:24:58  [ main:3328 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Advice matches criteria [is assignable to Object]
+2023-02-15 16:24:58  [ main:3328 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Animal matches criteria [is assignable to Object]
+2023-02-15 16:24:58  [ main:3328 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.HealthDataItem matches criteria [is assignable to Object]
+2023-02-15 16:24:58  [ main:3328 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.MyTree matches criteria [is assignable to Object]
+2023-02-15 16:24:58  [ main:3328 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Player matches criteria [is assignable to Object]
+2023-02-15 16:24:58  [ main:3328 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.User matches criteria [is assignable to Object]
+2023-02-15 16:24:58  [ main:3330 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:58  [ main:3330 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:58  [ main:3330 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:58  [ main:3330 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:58  [ main:3331 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:58  [ main:3331 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:58  [ main:3331 ] - [ DEBUG ]  Reader entry: GameDataMapper.class
+2023-02-15 16:24:58  [ main:3332 ] - [ DEBUG ]  Reader entry: GameDataMapper.xml
+2023-02-15 16:24:58  [ main:3332 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.class
+2023-02-15 16:24:58  [ main:3332 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.xml
+2023-02-15 16:24:58  [ main:3332 ] - [ DEBUG ]  Reader entry: USERMapper.class
+2023-02-15 16:24:58  [ main:3332 ] - [ DEBUG ]  Reader entry: USERMapper.xml
+2023-02-15 16:24:58  [ main:3332 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:58  [ main:3332 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:24:58  [ main:3333 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:24:58  [ main:3333 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#19;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;!cn/seu/srtp/mapper/GameDataMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:24:58  [ main:3333 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:24:58  [ main:3333 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:24:58  [ main:3334 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:58  [ main:3334 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:24:58  [ main:3334 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:24:58  [ main:3334 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#27;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;$cn/seu/srtp/mapper/HEALTH_DATAMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;&amp#20;InsertHealthDataItem&amp#1;&amp#0;6(Ljava/lang/String;Lcn/seu/srtp/pojo/HealthDataItem;)V&amp#1;&amp#0;"RuntimeVisibleParameterAnnotations&amp#1;&amp#0;%Lorg/apache/ibatis/annotations/Param;&amp#1;&amp#0;&amp#5;value&amp#1;&amp#0;&amp#4;uuid&amp#1;&amp#0;&amp#4;item&amp#1;&amp#0;&amp#27;SelectRecentWalkingDistance&amp#1;&amp#0;$(Ljava/lang/String;)Ljava/util/List;&amp#1;&amp#0;	Signature&amp#1;&amp#0;8(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Double;>;&amp#1;&amp#0;&amp#23;SelectRecentWalkingTime&amp#1;&amp#0;9(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Integer;>;&amp#1;&amp#0;&amp#23;SelectRecentRunningTime&amp#1;&amp#0;&amp#24;SelectRecentBreathExTime&amp#1;&amp#0;&amp#24;SelectRecentSleepingTime&amp#1;&amp#0;	GetAdvice&amp#1;&amp#0;?(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/Advice;>;&amp#1;&amp#0;&amp#18;GetHealthDataItems&amp#1;&amp#0;G(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/HealthDataItem;>;&amp#1;&amp#0;
+2023-02-15 16:24:58  [ main:3335 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:24:58  [ main:3335 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:24:58  [ main:3335 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:58  [ main:3335 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:24:58  [ main:3335 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:24:58  [ main:3336 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;3&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;&amp#29;cn/seu/srtp/mapper/USERMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:24:58  [ main:3336 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:24:58  [ main:3336 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:24:58  [ main:3336 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:58  [ main:3337 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.GameDataMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:58  [ main:3337 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.HEALTH_DATAMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:58  [ main:3337 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.USERMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:58  [ main:3360 ] - [ DEBUG ]  Opening JDBC Connection
+2023-02-15 16:24:58  [ main:3705 ] - [ DEBUG ]  Created connection 348055829.
+2023-02-15 16:24:58  [ main:3706 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@14bee915]
+2023-02-15 16:24:58  [ main:3742 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO LOGIN_RECORD (ID, DATE, USER_NAME) VALUES (?, (SELECT NOW()), ?);
+2023-02-15 16:24:58  [ main:3743 ] - [ DEBUG ]  ==> Parameters: a6dd30e8-ff7a-430f-a294-1605027b3001(String), admin(String)
+2023-02-15 16:24:58  [ main:3830 ] - [ DEBUG ]  <==    Updates: 1
+2023-02-15 16:24:58  [ main:3830 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@14bee915]
+1
+2023-02-15 16:24:58  [ main:3868 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@14bee915]
+2023-02-15 16:24:58  [ main:3903 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@14bee915]
+2023-02-15 16:24:58  [ main:3903 ] - [ DEBUG ]  Returned connection 348055829 to pool.
+]]></system-out>
+  </testcase>
+  <testcase name="TestInsertHealthData" classname="cn.seu.srtp.test.MyBatisTest" time="0.512">
+    <system-out><![CDATA[2023-02-15 16:24:58  [ main:3908 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:58  [ main:3909 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:58  [ main:3909 ] - [ DEBUG ]  Reader entry: Advice.class
+2023-02-15 16:24:58  [ main:3909 ] - [ DEBUG ]  Reader entry: Animal.class
+2023-02-15 16:24:58  [ main:3909 ] - [ DEBUG ]  Reader entry: HealthDataItem.class
+2023-02-15 16:24:58  [ main:3910 ] - [ DEBUG ]  Reader entry: MyTree.class
+2023-02-15 16:24:58  [ main:3910 ] - [ DEBUG ]  Reader entry: Player.class
+2023-02-15 16:24:58  [ main:3910 ] - [ DEBUG ]  Reader entry: User.class
+2023-02-15 16:24:58  [ main:3910 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:58  [ main:3910 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:24:58  [ main:3910 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:24:58  [ main:3910 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;'
+2023-02-15 16:24:58  [ main:3910 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:24:58  [ main:3910 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:24:58  [ main:3911 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;4
+2023-02-15 16:24:58  [ main:3911 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:24:58  [ main:3911 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:24:58  [ main:3911 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;r
+2023-02-15 16:24:58  [ main:3912 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:24:58  [ main:3912 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:24:58  [ main:3912 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;W
+2023-02-15 16:24:58  [ main:3912 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:24:58  [ main:3912 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:24:58  [ main:3913 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;F
+2023-02-15 16:24:58  [ main:3913 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:24:58  [ main:3913 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:24:58  [ main:3913 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;?
+2023-02-15 16:24:58  [ main:3914 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Advice matches criteria [is assignable to Object]
+2023-02-15 16:24:58  [ main:3914 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Animal matches criteria [is assignable to Object]
+2023-02-15 16:24:58  [ main:3914 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.HealthDataItem matches criteria [is assignable to Object]
+2023-02-15 16:24:58  [ main:3914 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.MyTree matches criteria [is assignable to Object]
+2023-02-15 16:24:58  [ main:3914 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Player matches criteria [is assignable to Object]
+2023-02-15 16:24:58  [ main:3914 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.User matches criteria [is assignable to Object]
+2023-02-15 16:24:58  [ main:3916 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:58  [ main:3916 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:58  [ main:3916 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:58  [ main:3916 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:58  [ main:3917 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:58  [ main:3917 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:58  [ main:3918 ] - [ DEBUG ]  Reader entry: GameDataMapper.class
+2023-02-15 16:24:58  [ main:3918 ] - [ DEBUG ]  Reader entry: GameDataMapper.xml
+2023-02-15 16:24:58  [ main:3918 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.class
+2023-02-15 16:24:58  [ main:3918 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.xml
+2023-02-15 16:24:58  [ main:3919 ] - [ DEBUG ]  Reader entry: USERMapper.class
+2023-02-15 16:24:58  [ main:3919 ] - [ DEBUG ]  Reader entry: USERMapper.xml
+2023-02-15 16:24:58  [ main:3919 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:58  [ main:3919 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:24:58  [ main:3919 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:24:58  [ main:3919 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#19;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;!cn/seu/srtp/mapper/GameDataMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:24:58  [ main:3920 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:24:58  [ main:3920 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:24:58  [ main:3921 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:58  [ main:3921 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:24:58  [ main:3921 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:24:58  [ main:3922 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#27;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;$cn/seu/srtp/mapper/HEALTH_DATAMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;&amp#20;InsertHealthDataItem&amp#1;&amp#0;6(Ljava/lang/String;Lcn/seu/srtp/pojo/HealthDataItem;)V&amp#1;&amp#0;"RuntimeVisibleParameterAnnotations&amp#1;&amp#0;%Lorg/apache/ibatis/annotations/Param;&amp#1;&amp#0;&amp#5;value&amp#1;&amp#0;&amp#4;uuid&amp#1;&amp#0;&amp#4;item&amp#1;&amp#0;&amp#27;SelectRecentWalkingDistance&amp#1;&amp#0;$(Ljava/lang/String;)Ljava/util/List;&amp#1;&amp#0;	Signature&amp#1;&amp#0;8(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Double;>;&amp#1;&amp#0;&amp#23;SelectRecentWalkingTime&amp#1;&amp#0;9(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Integer;>;&amp#1;&amp#0;&amp#23;SelectRecentRunningTime&amp#1;&amp#0;&amp#24;SelectRecentBreathExTime&amp#1;&amp#0;&amp#24;SelectRecentSleepingTime&amp#1;&amp#0;	GetAdvice&amp#1;&amp#0;?(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/Advice;>;&amp#1;&amp#0;&amp#18;GetHealthDataItems&amp#1;&amp#0;G(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/HealthDataItem;>;&amp#1;&amp#0;
+2023-02-15 16:24:58  [ main:3922 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:24:58  [ main:3922 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:24:58  [ main:3923 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:58  [ main:3923 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:24:58  [ main:3923 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:24:58  [ main:3923 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;3&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;&amp#29;cn/seu/srtp/mapper/USERMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:24:58  [ main:3923 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:24:58  [ main:3923 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:24:58  [ main:3924 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:58  [ main:3924 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.GameDataMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:58  [ main:3924 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.HEALTH_DATAMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:58  [ main:3924 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.USERMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:58  [ main:3949 ] - [ DEBUG ]  Opening JDBC Connection
+2023-02-15 16:24:58  [ main:4223 ] - [ DEBUG ]  Created connection 252738640.
+2023-02-15 16:24:58  [ main:4223 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f107c50]
+2023-02-15 16:24:59  [ main:4254 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO HEALTH_DATA (TIME, USER_NAME, WALKING_DISTANCE, WALK_TIME, RUN_TIME, BREATH_EXTIME, SLEEP_TIME) VALUES (?, (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = ?), ?, ?, ?, ?, ?)
+2023-02-15 16:24:59  [ main:4274 ] - [ DEBUG ]  ==> Parameters: 2023-01-24 00:00:00.0(Timestamp), 2da2666e-d717-4141-8ec2-0209ddc62a98(String), 2.28(Double), 26(Integer), 12(Integer), 8(Integer), 428(Integer)
+2023-02-15 16:24:59  [ main:4344 ] - [ DEBUG ]  <==    Updates: 1
+2023-02-15 16:24:59  [ main:4344 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f107c50]
+2023-02-15 16:24:59  [ main:4379 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f107c50]
+2023-02-15 16:24:59  [ main:4415 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f107c50]
+2023-02-15 16:24:59  [ main:4416 ] - [ DEBUG ]  Returned connection 252738640 to pool.
+]]></system-out>
+  </testcase>
+  <testcase name="TestSelectByUserName" classname="cn.seu.srtp.test.MyBatisTest" time="0.434">
+    <system-out><![CDATA[2023-02-15 16:24:59  [ main:4420 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:59  [ main:4421 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:59  [ main:4421 ] - [ DEBUG ]  Reader entry: Advice.class
+2023-02-15 16:24:59  [ main:4421 ] - [ DEBUG ]  Reader entry: Animal.class
+2023-02-15 16:24:59  [ main:4422 ] - [ DEBUG ]  Reader entry: HealthDataItem.class
+2023-02-15 16:24:59  [ main:4422 ] - [ DEBUG ]  Reader entry: MyTree.class
+2023-02-15 16:24:59  [ main:4422 ] - [ DEBUG ]  Reader entry: Player.class
+2023-02-15 16:24:59  [ main:4422 ] - [ DEBUG ]  Reader entry: User.class
+2023-02-15 16:24:59  [ main:4422 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:59  [ main:4422 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:24:59  [ main:4422 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:24:59  [ main:4423 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;'
+2023-02-15 16:24:59  [ main:4423 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:24:59  [ main:4423 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:24:59  [ main:4423 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;4
+2023-02-15 16:24:59  [ main:4424 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:24:59  [ main:4424 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:24:59  [ main:4424 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;r
+2023-02-15 16:24:59  [ main:4424 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:24:59  [ main:4424 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:24:59  [ main:4425 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;W
+2023-02-15 16:24:59  [ main:4425 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:24:59  [ main:4425 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:24:59  [ main:4425 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;F
+2023-02-15 16:24:59  [ main:4426 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:24:59  [ main:4426 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:24:59  [ main:4426 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;?
+2023-02-15 16:24:59  [ main:4426 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Advice matches criteria [is assignable to Object]
+2023-02-15 16:24:59  [ main:4427 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Animal matches criteria [is assignable to Object]
+2023-02-15 16:24:59  [ main:4427 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.HealthDataItem matches criteria [is assignable to Object]
+2023-02-15 16:24:59  [ main:4427 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.MyTree matches criteria [is assignable to Object]
+2023-02-15 16:24:59  [ main:4427 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Player matches criteria [is assignable to Object]
+2023-02-15 16:24:59  [ main:4427 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.User matches criteria [is assignable to Object]
+2023-02-15 16:24:59  [ main:4428 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:59  [ main:4429 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:59  [ main:4429 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:59  [ main:4429 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:59  [ main:4429 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:59  [ main:4430 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:59  [ main:4430 ] - [ DEBUG ]  Reader entry: GameDataMapper.class
+2023-02-15 16:24:59  [ main:4430 ] - [ DEBUG ]  Reader entry: GameDataMapper.xml
+2023-02-15 16:24:59  [ main:4431 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.class
+2023-02-15 16:24:59  [ main:4431 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.xml
+2023-02-15 16:24:59  [ main:4431 ] - [ DEBUG ]  Reader entry: USERMapper.class
+2023-02-15 16:24:59  [ main:4431 ] - [ DEBUG ]  Reader entry: USERMapper.xml
+2023-02-15 16:24:59  [ main:4431 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:59  [ main:4431 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:24:59  [ main:4431 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:24:59  [ main:4432 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#19;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;!cn/seu/srtp/mapper/GameDataMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:24:59  [ main:4432 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:24:59  [ main:4432 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:24:59  [ main:4432 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:59  [ main:4433 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:24:59  [ main:4433 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:24:59  [ main:4433 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#27;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;$cn/seu/srtp/mapper/HEALTH_DATAMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;&amp#20;InsertHealthDataItem&amp#1;&amp#0;6(Ljava/lang/String;Lcn/seu/srtp/pojo/HealthDataItem;)V&amp#1;&amp#0;"RuntimeVisibleParameterAnnotations&amp#1;&amp#0;%Lorg/apache/ibatis/annotations/Param;&amp#1;&amp#0;&amp#5;value&amp#1;&amp#0;&amp#4;uuid&amp#1;&amp#0;&amp#4;item&amp#1;&amp#0;&amp#27;SelectRecentWalkingDistance&amp#1;&amp#0;$(Ljava/lang/String;)Ljava/util/List;&amp#1;&amp#0;	Signature&amp#1;&amp#0;8(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Double;>;&amp#1;&amp#0;&amp#23;SelectRecentWalkingTime&amp#1;&amp#0;9(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Integer;>;&amp#1;&amp#0;&amp#23;SelectRecentRunningTime&amp#1;&amp#0;&amp#24;SelectRecentBreathExTime&amp#1;&amp#0;&amp#24;SelectRecentSleepingTime&amp#1;&amp#0;	GetAdvice&amp#1;&amp#0;?(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/Advice;>;&amp#1;&amp#0;&amp#18;GetHealthDataItems&amp#1;&amp#0;G(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/HealthDataItem;>;&amp#1;&amp#0;
+2023-02-15 16:24:59  [ main:4434 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:24:59  [ main:4434 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:24:59  [ main:4434 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:59  [ main:4434 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:24:59  [ main:4434 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:24:59  [ main:4434 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;3&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;&amp#29;cn/seu/srtp/mapper/USERMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:24:59  [ main:4435 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:24:59  [ main:4435 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:24:59  [ main:4435 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:59  [ main:4435 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.GameDataMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:59  [ main:4435 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.HEALTH_DATAMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:59  [ main:4435 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.USERMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:59  [ main:4466 ] - [ DEBUG ]  Opening JDBC Connection
+2023-02-15 16:24:59  [ main:4746 ] - [ DEBUG ]  Created connection 1209770703.
+2023-02-15 16:24:59  [ main:4746 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@481ba2cf]
+2023-02-15 16:24:59  [ main:4779 ] - [ DEBUG ]  ==>  Preparing: SELECT * FROM USER WHERE USER_NAME = ?;
+2023-02-15 16:24:59  [ main:4779 ] - [ DEBUG ]  ==> Parameters: failed(String)
+2023-02-15 16:24:59  [ main:4814 ] - [ DEBUG ]  <==      Total: 0
+null
+2023-02-15 16:24:59  [ main:4814 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@481ba2cf]
+2023-02-15 16:24:59  [ main:4849 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@481ba2cf]
+2023-02-15 16:24:59  [ main:4849 ] - [ DEBUG ]  Returned connection 1209770703 to pool.
+]]></system-out>
+  </testcase>
+  <testcase name="TestInsertGameObjects" classname="cn.seu.srtp.test.MyBatisTest" time="0.613">
+    <system-out><![CDATA[2023-02-15 16:24:59  [ main:4855 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:59  [ main:4856 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:59  [ main:4856 ] - [ DEBUG ]  Reader entry: Advice.class
+2023-02-15 16:24:59  [ main:4857 ] - [ DEBUG ]  Reader entry: Animal.class
+2023-02-15 16:24:59  [ main:4857 ] - [ DEBUG ]  Reader entry: HealthDataItem.class
+2023-02-15 16:24:59  [ main:4857 ] - [ DEBUG ]  Reader entry: MyTree.class
+2023-02-15 16:24:59  [ main:4857 ] - [ DEBUG ]  Reader entry: Player.class
+2023-02-15 16:24:59  [ main:4857 ] - [ DEBUG ]  Reader entry: User.class
+2023-02-15 16:24:59  [ main:4857 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:24:59  [ main:4857 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:24:59  [ main:4857 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:24:59  [ main:4858 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;'
+2023-02-15 16:24:59  [ main:4858 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:24:59  [ main:4858 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:24:59  [ main:4858 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;4
+2023-02-15 16:24:59  [ main:4858 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:24:59  [ main:4859 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:24:59  [ main:4859 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;r
+2023-02-15 16:24:59  [ main:4860 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:24:59  [ main:4860 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:24:59  [ main:4860 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;W
+2023-02-15 16:24:59  [ main:4861 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:24:59  [ main:4861 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:24:59  [ main:4861 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;F
+2023-02-15 16:24:59  [ main:4862 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:24:59  [ main:4862 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:24:59  [ main:4862 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;?
+2023-02-15 16:24:59  [ main:4862 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Advice matches criteria [is assignable to Object]
+2023-02-15 16:24:59  [ main:4862 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Animal matches criteria [is assignable to Object]
+2023-02-15 16:24:59  [ main:4862 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.HealthDataItem matches criteria [is assignable to Object]
+2023-02-15 16:24:59  [ main:4862 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.MyTree matches criteria [is assignable to Object]
+2023-02-15 16:24:59  [ main:4862 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Player matches criteria [is assignable to Object]
+2023-02-15 16:24:59  [ main:4862 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.User matches criteria [is assignable to Object]
+2023-02-15 16:24:59  [ main:4865 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:59  [ main:4865 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:59  [ main:4865 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:59  [ main:4865 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:59  [ main:4866 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:59  [ main:4866 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:59  [ main:4867 ] - [ DEBUG ]  Reader entry: GameDataMapper.class
+2023-02-15 16:24:59  [ main:4867 ] - [ DEBUG ]  Reader entry: GameDataMapper.xml
+2023-02-15 16:24:59  [ main:4868 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.class
+2023-02-15 16:24:59  [ main:4868 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.xml
+2023-02-15 16:24:59  [ main:4868 ] - [ DEBUG ]  Reader entry: USERMapper.class
+2023-02-15 16:24:59  [ main:4868 ] - [ DEBUG ]  Reader entry: USERMapper.xml
+2023-02-15 16:24:59  [ main:4868 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:24:59  [ main:4868 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:24:59  [ main:4868 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:24:59  [ main:4869 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#19;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;!cn/seu/srtp/mapper/GameDataMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:24:59  [ main:4869 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:24:59  [ main:4869 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:24:59  [ main:4870 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:59  [ main:4870 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:24:59  [ main:4870 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:24:59  [ main:4871 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#27;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;$cn/seu/srtp/mapper/HEALTH_DATAMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;&amp#20;InsertHealthDataItem&amp#1;&amp#0;6(Ljava/lang/String;Lcn/seu/srtp/pojo/HealthDataItem;)V&amp#1;&amp#0;"RuntimeVisibleParameterAnnotations&amp#1;&amp#0;%Lorg/apache/ibatis/annotations/Param;&amp#1;&amp#0;&amp#5;value&amp#1;&amp#0;&amp#4;uuid&amp#1;&amp#0;&amp#4;item&amp#1;&amp#0;&amp#27;SelectRecentWalkingDistance&amp#1;&amp#0;$(Ljava/lang/String;)Ljava/util/List;&amp#1;&amp#0;	Signature&amp#1;&amp#0;8(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Double;>;&amp#1;&amp#0;&amp#23;SelectRecentWalkingTime&amp#1;&amp#0;9(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Integer;>;&amp#1;&amp#0;&amp#23;SelectRecentRunningTime&amp#1;&amp#0;&amp#24;SelectRecentBreathExTime&amp#1;&amp#0;&amp#24;SelectRecentSleepingTime&amp#1;&amp#0;	GetAdvice&amp#1;&amp#0;?(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/Advice;>;&amp#1;&amp#0;&amp#18;GetHealthDataItems&amp#1;&amp#0;G(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/HealthDataItem;>;&amp#1;&amp#0;
+2023-02-15 16:24:59  [ main:4871 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:24:59  [ main:4871 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:24:59  [ main:4872 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:59  [ main:4872 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:24:59  [ main:4872 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:24:59  [ main:4873 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;3&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;&amp#29;cn/seu/srtp/mapper/USERMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:24:59  [ main:4874 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:24:59  [ main:4874 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:24:59  [ main:4874 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:24:59  [ main:4874 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.GameDataMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:59  [ main:4874 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.HEALTH_DATAMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:59  [ main:4874 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.USERMapper matches criteria [is assignable to Object]
+2023-02-15 16:24:59  [ Finalizer:4887 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:59  [ Finalizer:4887 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:59  [ Finalizer:4888 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:59  [ Finalizer:4888 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:59  [ Finalizer:4888 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:59  [ Finalizer:4888 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:59  [ Finalizer:4889 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:24:59  [ main:4901 ] - [ DEBUG ]  Opening JDBC Connection
+2023-02-15 16:24:59  [ main:5193 ] - [ DEBUG ]  Created connection 1830190936.
+2023-02-15 16:24:59  [ main:5193 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6d167f58]
+2023-02-15 16:24:59  [ main:5225 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO TREE (PLAYER_NAME, TYPE, POS_X, POS_Y, POS_Z, GROW_DEGREE) VALUES ((SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = ?), ?, ?, ?, ?, ?);
+2023-02-15 16:25:00  [ main:5231 ] - [ DEBUG ]  ==> Parameters: 2da2666e-d717-4141-8ec2-0209ddc62a98(String), 1(Integer), 109.87(Float), 287.09(Float), 826.92(Float), 20(Integer)
+2023-02-15 16:25:00  [ main:5297 ] - [ DEBUG ]  <==    Updates: 1
+2023-02-15 16:25:00  [ main:5297 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO ANIMAL (PLAYER_NAME, TYPE) VALUES ((SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = ?), ?)
+2023-02-15 16:25:00  [ main:5298 ] - [ DEBUG ]  ==> Parameters: 2da2666e-d717-4141-8ec2-0209ddc62a98(String), 5(Integer)
+2023-02-15 16:25:00  [ main:5365 ] - [ DEBUG ]  <==    Updates: 1
+2023-02-15 16:25:00  [ main:5365 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6d167f58]
+2023-02-15 16:25:00  [ main:5429 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6d167f58]
+2023-02-15 16:25:00  [ main:5463 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6d167f58]
+2023-02-15 16:25:00  [ main:5463 ] - [ DEBUG ]  Returned connection 1830190936 to pool.
+]]></system-out>
+  </testcase>
+  <testcase name="TestAddGameObjects" classname="cn.seu.srtp.test.MyBatisTest" time="0.408">
+    <system-out><![CDATA[2023-02-15 16:25:00  [ main:5469 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:25:00  [ main:5469 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:25:00  [ main:5470 ] - [ DEBUG ]  Reader entry: Advice.class
+2023-02-15 16:25:00  [ main:5470 ] - [ DEBUG ]  Reader entry: Animal.class
+2023-02-15 16:25:00  [ main:5470 ] - [ DEBUG ]  Reader entry: HealthDataItem.class
+2023-02-15 16:25:00  [ main:5470 ] - [ DEBUG ]  Reader entry: MyTree.class
+2023-02-15 16:25:00  [ main:5470 ] - [ DEBUG ]  Reader entry: Player.class
+2023-02-15 16:25:00  [ main:5471 ] - [ DEBUG ]  Reader entry: User.class
+2023-02-15 16:25:00  [ main:5471 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:25:00  [ main:5471 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:25:00  [ main:5471 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:25:00  [ main:5472 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;'
+2023-02-15 16:25:00  [ main:5472 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:25:00  [ main:5472 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:25:00  [ main:5473 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;4
+2023-02-15 16:25:00  [ main:5473 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:25:00  [ main:5473 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:25:00  [ main:5473 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;r
+2023-02-15 16:25:00  [ main:5473 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:25:00  [ main:5473 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:25:00  [ main:5474 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;W
+2023-02-15 16:25:00  [ main:5474 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:25:00  [ main:5474 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:25:00  [ main:5474 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;F
+2023-02-15 16:25:00  [ main:5474 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:25:00  [ main:5475 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:25:00  [ main:5475 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;?
+2023-02-15 16:25:00  [ main:5475 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Advice matches criteria [is assignable to Object]
+2023-02-15 16:25:00  [ main:5475 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Animal matches criteria [is assignable to Object]
+2023-02-15 16:25:00  [ main:5475 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.HealthDataItem matches criteria [is assignable to Object]
+2023-02-15 16:25:00  [ main:5475 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.MyTree matches criteria [is assignable to Object]
+2023-02-15 16:25:00  [ main:5475 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Player matches criteria [is assignable to Object]
+2023-02-15 16:25:00  [ main:5475 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.User matches criteria [is assignable to Object]
+2023-02-15 16:25:00  [ main:5477 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:25:00  [ main:5477 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:25:00  [ main:5477 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:25:00  [ main:5477 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:25:00  [ main:5477 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:25:00  [ main:5477 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:25:00  [ main:5478 ] - [ DEBUG ]  Reader entry: GameDataMapper.class
+2023-02-15 16:25:00  [ main:5478 ] - [ DEBUG ]  Reader entry: GameDataMapper.xml
+2023-02-15 16:25:00  [ main:5478 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.class
+2023-02-15 16:25:00  [ main:5478 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.xml
+2023-02-15 16:25:00  [ main:5478 ] - [ DEBUG ]  Reader entry: USERMapper.class
+2023-02-15 16:25:00  [ main:5478 ] - [ DEBUG ]  Reader entry: USERMapper.xml
+2023-02-15 16:25:00  [ main:5479 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:25:00  [ main:5479 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:25:00  [ main:5479 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:25:00  [ main:5479 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#19;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;!cn/seu/srtp/mapper/GameDataMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:25:00  [ main:5479 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:25:00  [ main:5479 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:25:00  [ main:5480 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:25:00  [ main:5480 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:25:00  [ main:5480 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:25:00  [ main:5481 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#27;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;$cn/seu/srtp/mapper/HEALTH_DATAMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;&amp#20;InsertHealthDataItem&amp#1;&amp#0;6(Ljava/lang/String;Lcn/seu/srtp/pojo/HealthDataItem;)V&amp#1;&amp#0;"RuntimeVisibleParameterAnnotations&amp#1;&amp#0;%Lorg/apache/ibatis/annotations/Param;&amp#1;&amp#0;&amp#5;value&amp#1;&amp#0;&amp#4;uuid&amp#1;&amp#0;&amp#4;item&amp#1;&amp#0;&amp#27;SelectRecentWalkingDistance&amp#1;&amp#0;$(Ljava/lang/String;)Ljava/util/List;&amp#1;&amp#0;	Signature&amp#1;&amp#0;8(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Double;>;&amp#1;&amp#0;&amp#23;SelectRecentWalkingTime&amp#1;&amp#0;9(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Integer;>;&amp#1;&amp#0;&amp#23;SelectRecentRunningTime&amp#1;&amp#0;&amp#24;SelectRecentBreathExTime&amp#1;&amp#0;&amp#24;SelectRecentSleepingTime&amp#1;&amp#0;	GetAdvice&amp#1;&amp#0;?(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/Advice;>;&amp#1;&amp#0;&amp#18;GetHealthDataItems&amp#1;&amp#0;G(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/HealthDataItem;>;&amp#1;&amp#0;
+2023-02-15 16:25:00  [ main:5481 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:25:00  [ main:5481 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:25:00  [ main:5482 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:25:00  [ main:5482 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:25:00  [ main:5483 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:25:00  [ main:5483 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;3&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;&amp#29;cn/seu/srtp/mapper/USERMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:25:00  [ main:5484 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:25:00  [ main:5484 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:25:00  [ main:5484 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:25:00  [ main:5485 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.GameDataMapper matches criteria [is assignable to Object]
+2023-02-15 16:25:00  [ main:5485 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.HEALTH_DATAMapper matches criteria [is assignable to Object]
+2023-02-15 16:25:00  [ main:5485 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.USERMapper matches criteria [is assignable to Object]
+2023-02-15 16:25:00  [ main:5506 ] - [ DEBUG ]  Opening JDBC Connection
+2023-02-15 16:25:00  [ main:5743 ] - [ DEBUG ]  Created connection 838812606.
+2023-02-15 16:25:00  [ main:5743 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@31ff43be]
+2023-02-15 16:25:00  [ main:5772 ] - [ DEBUG ]  ==>  Preparing: SELECT * FROM PLAYER WHERE PLAYER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = ?);
+2023-02-15 16:25:00  [ main:5772 ] - [ DEBUG ]  ==> Parameters: 2da2666e-d717-4141-8ec2-0209ddc62a98(String)
+2023-02-15 16:25:00  [ main:5808 ] - [ DEBUG ]  <==      Total: 1
+2023-02-15 16:25:00  [ main:5809 ] - [ DEBUG ]  ==>  Preparing: SELECT * FROM HEALTH_DATA WHERE USER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = ?) ORDER BY TIME DESC LIMIT 7;
+2023-02-15 16:25:00  [ main:5809 ] - [ DEBUG ]  ==> Parameters: 2da2666e-d717-4141-8ec2-0209ddc62a98(String)
+2023-02-15 16:25:00  [ main:5842 ] - [ DEBUG ]  <==      Total: 7
+Player{treeNum=26, animalNum=6, treeScore=0.4, animalScore=0.05}
+[HealthDataItem{time=2023-02-13, userName='null', walkingDistance=1.22, walkTime=11, runTime=0, breathExTime=3, sleepTime=369}, HealthDataItem{time=2023-02-12, userName='null', walkingDistance=1.22, walkTime=22, runTime=4, breathExTime=0, sleepTime=309}, HealthDataItem{time=2023-02-11, userName='null', walkingDistance=2.26, walkTime=31, runTime=0, breathExTime=6, sleepTime=0}, HealthDataItem{time=2023-02-10, userName='null', walkingDistance=5.08, walkTime=85, runTime=0, breathExTime=0, sleepTime=441}, HealthDataItem{time=2023-02-09, userName='null', walkingDistance=2.12, walkTime=35, runTime=0, breathExTime=0, sleepTime=352}, HealthDataItem{time=2023-02-08, userName='null', walkingDistance=2.37, walkTime=33, runTime=0, breathExTime=0, sleepTime=400}, HealthDataItem{time=2023-02-07, userName='null', walkingDistance=2.5300000000000002, walkTime=35, runTime=0, breathExTime=0, sleepTime=400}]
+2023-02-15 16:25:00  [ main:5842 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@31ff43be]
+2023-02-15 16:25:00  [ main:5872 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@31ff43be]
+2023-02-15 16:25:00  [ main:5872 ] - [ DEBUG ]  Returned connection 838812606 to pool.
+]]></system-out>
+  </testcase>
+  <testcase name="TestGetScore" classname="cn.seu.srtp.test.MyBatisTest" time="0.546">
+    <system-out><![CDATA[2023-02-15 16:25:00  [ main:5876 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:25:00  [ main:5876 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:25:00  [ main:5876 ] - [ DEBUG ]  Reader entry: Advice.class
+2023-02-15 16:25:00  [ main:5876 ] - [ DEBUG ]  Reader entry: Animal.class
+2023-02-15 16:25:00  [ main:5876 ] - [ DEBUG ]  Reader entry: HealthDataItem.class
+2023-02-15 16:25:00  [ main:5876 ] - [ DEBUG ]  Reader entry: MyTree.class
+2023-02-15 16:25:00  [ main:5877 ] - [ DEBUG ]  Reader entry: Player.class
+2023-02-15 16:25:00  [ main:5877 ] - [ DEBUG ]  Reader entry: User.class
+2023-02-15 16:25:00  [ main:5877 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:25:00  [ main:5878 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:25:00  [ main:5878 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:25:00  [ main:5878 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;'
+2023-02-15 16:25:00  [ main:5878 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:25:00  [ main:5878 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:25:00  [ main:5878 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;4
+2023-02-15 16:25:00  [ main:5879 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:25:00  [ main:5879 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:25:00  [ main:5879 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;r
+2023-02-15 16:25:00  [ main:5879 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:25:00  [ main:5879 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:25:00  [ main:5880 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;W
+2023-02-15 16:25:00  [ main:5880 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:25:00  [ main:5880 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:25:00  [ main:5880 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;F
+2023-02-15 16:25:00  [ main:5880 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:25:00  [ main:5881 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:25:00  [ main:5881 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;?
+2023-02-15 16:25:00  [ main:5881 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Advice matches criteria [is assignable to Object]
+2023-02-15 16:25:00  [ main:5881 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Animal matches criteria [is assignable to Object]
+2023-02-15 16:25:00  [ main:5881 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.HealthDataItem matches criteria [is assignable to Object]
+2023-02-15 16:25:00  [ main:5881 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.MyTree matches criteria [is assignable to Object]
+2023-02-15 16:25:00  [ main:5881 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Player matches criteria [is assignable to Object]
+2023-02-15 16:25:00  [ main:5881 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.User matches criteria [is assignable to Object]
+2023-02-15 16:25:00  [ main:5882 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:25:00  [ main:5882 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:25:00  [ main:5882 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:25:00  [ main:5882 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:25:00  [ main:5883 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:25:00  [ main:5883 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:25:00  [ main:5883 ] - [ DEBUG ]  Reader entry: GameDataMapper.class
+2023-02-15 16:25:00  [ main:5884 ] - [ DEBUG ]  Reader entry: GameDataMapper.xml
+2023-02-15 16:25:00  [ main:5884 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.class
+2023-02-15 16:25:00  [ main:5884 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.xml
+2023-02-15 16:25:00  [ main:5884 ] - [ DEBUG ]  Reader entry: USERMapper.class
+2023-02-15 16:25:00  [ main:5884 ] - [ DEBUG ]  Reader entry: USERMapper.xml
+2023-02-15 16:25:00  [ main:5884 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:25:00  [ main:5884 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:25:00  [ main:5884 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:25:00  [ main:5884 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#19;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;!cn/seu/srtp/mapper/GameDataMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:25:00  [ main:5884 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:25:00  [ main:5885 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:25:00  [ main:5885 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:25:00  [ main:5885 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:25:00  [ main:5885 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:25:00  [ main:5885 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#27;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;$cn/seu/srtp/mapper/HEALTH_DATAMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;&amp#20;InsertHealthDataItem&amp#1;&amp#0;6(Ljava/lang/String;Lcn/seu/srtp/pojo/HealthDataItem;)V&amp#1;&amp#0;"RuntimeVisibleParameterAnnotations&amp#1;&amp#0;%Lorg/apache/ibatis/annotations/Param;&amp#1;&amp#0;&amp#5;value&amp#1;&amp#0;&amp#4;uuid&amp#1;&amp#0;&amp#4;item&amp#1;&amp#0;&amp#27;SelectRecentWalkingDistance&amp#1;&amp#0;$(Ljava/lang/String;)Ljava/util/List;&amp#1;&amp#0;	Signature&amp#1;&amp#0;8(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Double;>;&amp#1;&amp#0;&amp#23;SelectRecentWalkingTime&amp#1;&amp#0;9(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Integer;>;&amp#1;&amp#0;&amp#23;SelectRecentRunningTime&amp#1;&amp#0;&amp#24;SelectRecentBreathExTime&amp#1;&amp#0;&amp#24;SelectRecentSleepingTime&amp#1;&amp#0;	GetAdvice&amp#1;&amp#0;?(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/Advice;>;&amp#1;&amp#0;&amp#18;GetHealthDataItems&amp#1;&amp#0;G(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/HealthDataItem;>;&amp#1;&amp#0;
+2023-02-15 16:25:00  [ main:5886 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:25:00  [ main:5886 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:25:00  [ main:5886 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:25:00  [ main:5886 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:25:00  [ main:5886 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:25:00  [ main:5886 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;3&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;&amp#29;cn/seu/srtp/mapper/USERMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:25:00  [ main:5887 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:25:00  [ main:5887 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:25:00  [ main:5887 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:25:00  [ main:5887 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.GameDataMapper matches criteria [is assignable to Object]
+2023-02-15 16:25:00  [ main:5887 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.HEALTH_DATAMapper matches criteria [is assignable to Object]
+2023-02-15 16:25:00  [ main:5887 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.USERMapper matches criteria [is assignable to Object]
+2023-02-15 16:25:00  [ main:5907 ] - [ DEBUG ]  Opening JDBC Connection
+2023-02-15 16:25:00  [ main:6219 ] - [ DEBUG ]  Created connection 689602108.
+2023-02-15 16:25:00  [ main:6219 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@291a7e3c]
+2023-02-15 16:25:01  [ main:6259 ] - [ DEBUG ]  ==>  Preparing: UPDATE PLAYER SET TREE_SCORE = ?, ANIMAL_SCORE = ? WHERE PLAYER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = ?);
+2023-02-15 16:25:01  [ main:6259 ] - [ DEBUG ]  ==> Parameters: 0.4(Double), 0.05(Double), 2da2666e-d717-4141-8ec2-0209ddc62a98(String)
+2023-02-15 16:25:01  [ main:6339 ] - [ DEBUG ]  <==    Updates: 1
+2023-02-15 16:25:01  [ main:6339 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@291a7e3c]
+2023-02-15 16:25:01  [ main:6379 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@291a7e3c]
+2023-02-15 16:25:01  [ main:6418 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@291a7e3c]
+2023-02-15 16:25:01  [ main:6418 ] - [ DEBUG ]  Returned connection 689602108 to pool.
+]]></system-out>
+  </testcase>
+  <testcase name="TestSelectDist" classname="cn.seu.srtp.test.MyBatisTest" time="0.544">
+    <system-out><![CDATA[2023-02-15 16:25:01  [ main:6422 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:25:01  [ main:6422 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:25:01  [ main:6423 ] - [ DEBUG ]  Reader entry: Advice.class
+2023-02-15 16:25:01  [ main:6423 ] - [ DEBUG ]  Reader entry: Animal.class
+2023-02-15 16:25:01  [ main:6423 ] - [ DEBUG ]  Reader entry: HealthDataItem.class
+2023-02-15 16:25:01  [ main:6423 ] - [ DEBUG ]  Reader entry: MyTree.class
+2023-02-15 16:25:01  [ main:6423 ] - [ DEBUG ]  Reader entry: Player.class
+2023-02-15 16:25:01  [ main:6423 ] - [ DEBUG ]  Reader entry: User.class
+2023-02-15 16:25:01  [ main:6423 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo
+2023-02-15 16:25:01  [ main:6424 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:25:01  [ main:6424 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Advice.class
+2023-02-15 16:25:01  [ main:6424 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;'
+2023-02-15 16:25:01  [ main:6424 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:25:01  [ main:6424 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Animal.class
+2023-02-15 16:25:01  [ main:6424 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;4
+2023-02-15 16:25:01  [ main:6425 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:25:01  [ main:6425 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/HealthDataItem.class
+2023-02-15 16:25:01  [ main:6426 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;r
+2023-02-15 16:25:01  [ main:6426 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:25:01  [ main:6426 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/MyTree.class
+2023-02-15 16:25:01  [ main:6426 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;W
+2023-02-15 16:25:01  [ main:6426 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:25:01  [ main:6426 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/Player.class
+2023-02-15 16:25:01  [ main:6426 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;F
+2023-02-15 16:25:01  [ main:6426 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:25:01  [ main:6426 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/pojo/User.class
+2023-02-15 16:25:01  [ main:6427 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;?
+2023-02-15 16:25:01  [ main:6427 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Advice matches criteria [is assignable to Object]
+2023-02-15 16:25:01  [ main:6427 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Animal matches criteria [is assignable to Object]
+2023-02-15 16:25:01  [ main:6427 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.HealthDataItem matches criteria [is assignable to Object]
+2023-02-15 16:25:01  [ main:6427 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.MyTree matches criteria [is assignable to Object]
+2023-02-15 16:25:01  [ main:6427 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.Player matches criteria [is assignable to Object]
+2023-02-15 16:25:01  [ main:6427 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.pojo.User matches criteria [is assignable to Object]
+2023-02-15 16:25:01  [ main:6428 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:25:01  [ main:6428 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:25:01  [ main:6428 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:25:01  [ main:6428 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2023-02-15 16:25:01  [ main:6429 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:25:01  [ main:6429 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:25:01  [ main:6429 ] - [ DEBUG ]  Reader entry: GameDataMapper.class
+2023-02-15 16:25:01  [ main:6429 ] - [ DEBUG ]  Reader entry: GameDataMapper.xml
+2023-02-15 16:25:01  [ main:6430 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.class
+2023-02-15 16:25:01  [ main:6430 ] - [ DEBUG ]  Reader entry: HEALTH_DATAMapper.xml
+2023-02-15 16:25:01  [ main:6430 ] - [ DEBUG ]  Reader entry: USERMapper.class
+2023-02-15 16:25:01  [ main:6430 ] - [ DEBUG ]  Reader entry: USERMapper.xml
+2023-02-15 16:25:01  [ main:6430 ] - [ DEBUG ]  Listing file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper
+2023-02-15 16:25:01  [ main:6430 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:25:01  [ main:6430 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.class
+2023-02-15 16:25:01  [ main:6431 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#19;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;!cn/seu/srtp/mapper/GameDataMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:25:01  [ main:6431 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:25:01  [ main:6431 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/GameDataMapper.xml
+2023-02-15 16:25:01  [ main:6431 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:25:01  [ main:6431 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:25:01  [ main:6431 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.class
+2023-02-15 16:25:01  [ main:6432 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;&amp#27;&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;$cn/seu/srtp/mapper/HEALTH_DATAMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;&amp#20;InsertHealthDataItem&amp#1;&amp#0;6(Ljava/lang/String;Lcn/seu/srtp/pojo/HealthDataItem;)V&amp#1;&amp#0;"RuntimeVisibleParameterAnnotations&amp#1;&amp#0;%Lorg/apache/ibatis/annotations/Param;&amp#1;&amp#0;&amp#5;value&amp#1;&amp#0;&amp#4;uuid&amp#1;&amp#0;&amp#4;item&amp#1;&amp#0;&amp#27;SelectRecentWalkingDistance&amp#1;&amp#0;$(Ljava/lang/String;)Ljava/util/List;&amp#1;&amp#0;	Signature&amp#1;&amp#0;8(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Double;>;&amp#1;&amp#0;&amp#23;SelectRecentWalkingTime&amp#1;&amp#0;9(Ljava/lang/String;)Ljava/util/List<Ljava/lang/Integer;>;&amp#1;&amp#0;&amp#23;SelectRecentRunningTime&amp#1;&amp#0;&amp#24;SelectRecentBreathExTime&amp#1;&amp#0;&amp#24;SelectRecentSleepingTime&amp#1;&amp#0;	GetAdvice&amp#1;&amp#0;?(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/Advice;>;&amp#1;&amp#0;&amp#18;GetHealthDataItems&amp#1;&amp#0;G(Ljava/lang/String;)Ljava/util/List<Lcn/seu/srtp/pojo/HealthDataItem;>;&amp#1;&amp#0;
+2023-02-15 16:25:01  [ main:6432 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:25:01  [ main:6432 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/HEALTH_DATAMapper.xml
+2023-02-15 16:25:01  [ main:6432 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:25:01  [ main:6432 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:25:01  [ main:6432 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.class
+2023-02-15 16:25:01  [ main:6433 ] - [ DEBUG ]  Reader entry: ����&amp#0;&amp#0;&amp#0;4&amp#0;3&amp#7;&amp#0;&amp#2;&amp#1;&amp#0;&amp#29;cn/seu/srtp/mapper/USERMapper&amp#7;&amp#0;&amp#4;&amp#1;&amp#0;&amp#16;java/lang/Object&amp#1;&amp#0;
+2023-02-15 16:25:01  [ main:6433 ] - [ DEBUG ]  Find JAR URL: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:25:01  [ main:6433 ] - [ DEBUG ]  Not a JAR: file:/D:/University/SRTP/Web/SRTP-ReViveLand_B/ReViveLand/target/classes/cn/seu/srtp/mapper/USERMapper.xml
+2023-02-15 16:25:01  [ main:6433 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2023-02-15 16:25:01  [ main:6433 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.GameDataMapper matches criteria [is assignable to Object]
+2023-02-15 16:25:01  [ main:6433 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.HEALTH_DATAMapper matches criteria [is assignable to Object]
+2023-02-15 16:25:01  [ main:6433 ] - [ DEBUG ]  Checking to see if class cn.seu.srtp.mapper.USERMapper matches criteria [is assignable to Object]
+2023-02-15 16:25:01  [ main:6447 ] - [ DEBUG ]  Opening JDBC Connection
+2023-02-15 16:25:01  [ main:6708 ] - [ DEBUG ]  Created connection 402695541.
+2023-02-15 16:25:01  [ main:6708 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1800a575]
+2023-02-15 16:25:01  [ main:6738 ] - [ DEBUG ]  ==>  Preparing: SELECT WALKING_DISTANCE FROM HEALTH_DATA WHERE USER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = ?) ORDER BY TIME DESC LIMIT 100;
+2023-02-15 16:25:01  [ main:6738 ] - [ DEBUG ]  ==> Parameters: 2da2666e-d717-4141-8ec2-0209ddc62a98(String)
+2023-02-15 16:25:01  [ main:6771 ] - [ DEBUG ]  <==      Total: 14
+2023-02-15 16:25:01  [ main:6772 ] - [ DEBUG ]  ==>  Preparing: SELECT WALK_TIME FROM HEALTH_DATA WHERE USER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = ?) ORDER BY TIME DESC LIMIT 100;
+2023-02-15 16:25:01  [ main:6772 ] - [ DEBUG ]  ==> Parameters: 2da2666e-d717-4141-8ec2-0209ddc62a98(String)
+2023-02-15 16:25:01  [ main:6806 ] - [ DEBUG ]  <==      Total: 14
+2023-02-15 16:25:01  [ main:6807 ] - [ DEBUG ]  ==>  Preparing: SELECT RUN_TIME FROM HEALTH_DATA WHERE USER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = ?) ORDER BY TIME DESC LIMIT 100;
+2023-02-15 16:25:01  [ main:6807 ] - [ DEBUG ]  ==> Parameters: 2da2666e-d717-4141-8ec2-0209ddc62a98(String)
+2023-02-15 16:25:01  [ main:6840 ] - [ DEBUG ]  <==      Total: 14
+2023-02-15 16:25:01  [ main:6840 ] - [ DEBUG ]  ==>  Preparing: SELECT BREATH_EXTIME FROM HEALTH_DATA WHERE USER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = ?) ORDER BY TIME DESC LIMIT 100;
+2023-02-15 16:25:01  [ main:6841 ] - [ DEBUG ]  ==> Parameters: 2da2666e-d717-4141-8ec2-0209ddc62a98(String)
+2023-02-15 16:25:01  [ main:6874 ] - [ DEBUG ]  <==      Total: 14
+2023-02-15 16:25:01  [ main:6874 ] - [ DEBUG ]  ==>  Preparing: SELECT SLEEP_TIME FROM HEALTH_DATA WHERE USER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = ?) ORDER BY TIME DESC LIMIT 100;
+2023-02-15 16:25:01  [ main:6875 ] - [ DEBUG ]  ==> Parameters: 2da2666e-d717-4141-8ec2-0209ddc62a98(String)
+2023-02-15 16:25:01  [ main:6907 ] - [ DEBUG ]  <==      Total: 14
+2023-02-15 16:25:01  [ main:6907 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1800a575]
+2023-02-15 16:25:01  [ main:6940 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1800a575]
+2023-02-15 16:25:01  [ main:6940 ] - [ DEBUG ]  Returned connection 402695541 to pool.
+[1.22, 1.22, 2.26, 5.08, 2.12, 2.37, 2.5300000000000002, 5.46, 2.28, 2.28, 2.28, 2.28, 2.28, 2.28]
+[11, 22, 31, 85, 35, 33, 35, 76, 26, 26, 26, 26, 26, 26]
+[0, 4, 0, 0, 0, 0, 0, 0, 12, 12, 12, 12, 12, 12]
+[3, 0, 6, 0, 0, 0, 0, 0, 8, 8, 8, 8, 8, 8]
+[369, 309, 0, 441, 352, 400, 400, 458, 428, 428, 428, 428, 428, 428]
+]]></system-out>
+  </testcase>
+</testsuite>

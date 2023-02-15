@@ -93,6 +93,19 @@ public class LoginServlet extends MyHttpServlet{
             //没有对应的用户，登陆失败
 //            writer.write("fail");
             loginResult = "no user";
+
+            res.setHeader("Access-Control-Allow-Credentials", "true");
+            res.setHeader("Access-Control-Allow-Origin", scheme+"://"+ip+":8081");
+            //返回给前端
+            res.setHeader("Content-type", "application/json");
+
+            JSONObject responseInfo = new JSONObject();
+            responseInfo.put("result", loginResult);
+
+            PrintWriter writer = res.getWriter();
+
+            writer.write(JSON.toJSONString(responseInfo));
+
         }else{
             //登陆成功
 //            writer.write("success");

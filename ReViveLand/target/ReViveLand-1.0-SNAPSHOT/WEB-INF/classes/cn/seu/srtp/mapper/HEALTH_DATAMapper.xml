@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.seu.srtp.mapper.HEALTH_DATAMapper">
+
+    <resultMap id="adviceResultMap" type="cn.seu.srtp.pojo.Advice">
+        <!--
+            <id>标签完成主键的映射
+            <result>标签完成其他列名的映射
+         -->
+        <result column="TIP_TEXT" property="info" />
+    </resultMap>
+
+    <resultMap id="healthDataItemResultMap" type="cn.seu.srtp.pojo.HealthDataItem">
+
+        <result column="WALKING_DISTANCE" property="walkingDistance"></result>
+        <result column="WALK_TIME" property="walkTime"></result>
+        <result column="RUN_TIME" property="runTime"></result>
+        <result column="BREATH_EXTIME" property="breathExTime"></result>
+        <result column="SLEEP_TIME" property="sleepTime"></result>
+    </resultMap>
+
+    <insert id="InsertHealthDataItem">
+        INSERT INTO HEALTH_DATA (TIME, USER_NAME, WALKING_DISTANCE, WALK_TIME, RUN_TIME, BREATH_EXTIME, SLEEP_TIME)
+        VALUES (#{item.time},
+                (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid}),
+                #{item.walkingDistance},
+                #{item.walkTime},
+                #{item.runTime},
+                #{item.breathExTime},
+                #{item.sleepTime})
+    </insert>
+    <select id="SelectRecentWalkingDistance" resultType="java.lang.Double">
+        SELECT WALKING_DISTANCE FROM HEALTH_DATA
+        WHERE USER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid})
+        ORDER BY TIME DESC LIMIT 100;
+    </select>
+    <select id="SelectRecentWalkingTime" resultType="java.lang.Integer">
+        SELECT WALK_TIME FROM HEALTH_DATA
+        WHERE USER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid})
+        ORDER BY TIME DESC LIMIT 100;
+    </select>
+    <select id="SelectRecentRunningTime" resultType="java.lang.Integer">
+        SELECT RUN_TIME FROM HEALTH_DATA
+        WHERE USER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid})
+        ORDER BY TIME DESC LIMIT 100;
+    </select>
+    <select id="SelectRecentBreathExTime" resultType="java.lang.Integer">
+        SELECT BREATH_EXTIME FROM HEALTH_DATA
+        WHERE USER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid})
+        ORDER BY TIME DESC LIMIT 100;
+    </select>
+
+    <select id="SelectRecentSleepingTime" resultType="java.lang.Integer">
+        SELECT SLEEP_TIME FROM HEALTH_DATA
+        WHERE USER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid})
+        ORDER BY TIME DESC LIMIT 100;
+    </select>
+
+    <select id="GetAdvice" resultMap="adviceResultMap">
+        SELECT TIP_TEXT FROM HEALTH_TIP
+        WHERE STATUS =
+              (SELECT "SLEEP_" + SLEEP_STATUS FROM USER
+                WHERE USER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD
+                WHERE ID = #{uuid}))
+        OR
+            STATUS =
+            (SELECT "EXERCISE_" + EXERCISE_STATUS FROM USER
+             WHERE USER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD
+                                WHERE ID = #{uuid}))
+        ORDER BY RAND() LIMIT 4;
+    </select>
+
+    <select id="GetHealthDataItems" resultMap="healthDataItemResultMap">
+        SELECT * FROM HEALTH_DATA
+        WHERE USER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid})
+        ORDER BY TIME DESC LIMIT 7;
+    </select>
+
+</mapper>

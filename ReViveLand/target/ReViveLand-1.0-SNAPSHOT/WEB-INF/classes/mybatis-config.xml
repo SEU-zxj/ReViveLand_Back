@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--
+        别名：为了简化在Mapper映射文件中写返回的类型
+           ->使用别名之后，就可以不用写resultType="cn.seu.srtp.pojo.User"
+           ->而是resultType="User" （不区分大小写）
+    -->
+    <typeAliases>
+        <package name="cn.seu.srtp.pojo"/>
+    </typeAliases>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <!--数据库的连接信息-->
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://8.130.26.63:3306/ReViveLand"/>
+                <property name="username" value="root"/>
+                <property name="password" value="DNDX_srtp_097157"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!--加载sql的映射文件
+        映射文件中存储 sql 语句
+        对每一个表而言，对这个表进行操作的所有sql语句都将存放在一个Mapper映射文件中
+        例如对USER表操作的sql语句都可以存放在USERMapper映射文件中
+        -->
+        
+<!--        <mapper resource="cn/seu/srtp/mapper/USERMapper.xml"/>-->
+        
+<!--   使用Mapper代理的方式加载对应目录下所有的sql映射文件     -->
+        <package name="cn.seu.srtp.mapper"/>
+    </mappers>
+</configuration>
