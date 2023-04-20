@@ -106,6 +106,10 @@ public class LoginServlet extends MyHttpServlet{
 
             writer.write(JSON.toJSONString(responseInfo));
 
+            //5. 释放资源
+            sqlSession.commit();
+            sqlSession.close();
+
         }else{
             //登陆成功
 //            writer.write("success");

@@ -18,8 +18,8 @@ public class MyHttpServlet extends HttpServlet {
         HttpServletResponse response = (HttpServletResponse) res;
         //2.判断
         String method = request.getMethod();
-        System.out.println("I know the req!");
-        System.out.println("your method is " + method);
+//        System.out.println("I know the req!");
+//        System.out.println("your method is " + method);
         if("GET".equals(method)){
             //Get请求方式
             doGet(request, response);

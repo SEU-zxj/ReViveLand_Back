@@ -13,4 +13,6 @@ public interface GameDataMapper {
 
     Player GetPlayer(@Param("uuid") String uuid);
 
+    void UpdatePlayerGameObjectNum(@Param("uuid") String uuid);
+
 }

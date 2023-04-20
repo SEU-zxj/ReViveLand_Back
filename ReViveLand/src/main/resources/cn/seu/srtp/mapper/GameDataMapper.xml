@@ -28,6 +28,18 @@
                 #{animal.type})
     </insert>
 
+    <update id="UpdatePlayerGameObjectNum">
+        UPDATE PLAYER SET
+            TREE_NUM = (SELECT COUNT(*) FROM TREE GROUP BY TREE.PLAYER_NAME
+                        HAVING TREE.PLAYER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD
+                                                    WHERE ID = #{uuid})),
+            ANIMAL_NUM = (SELECT COUNT(*) FROM ANIMAL GROUP BY ANIMAL.PLAYER_NAME
+                          HAVING ANIMAL.PLAYER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD
+                                                     WHERE ID = #{uuid}))
+        WHERE PLAYER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid});
+    </update>
+
+
     <select id="GetPlayer" resultMap="playerResultMap">
         SELECT * FROM PLAYER
                  WHERE PLAYER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid});

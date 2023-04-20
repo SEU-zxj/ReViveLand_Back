@@ -13,6 +13,7 @@ public class HealthDataItem {
     private double walkingDistance;
     //时间都精确到分钟，小数点砍掉
     private int walkTime;
+    private int walkSteps;
 
     private int runTime;
     private int breathExTime;
@@ -57,6 +58,12 @@ public class HealthDataItem {
     public void setWalkTime(int walkTime) {
         this.walkTime = walkTime;
     }
+    public void setWalkSteps(int walkSteps){
+        this.walkSteps = walkSteps;
+    }
+    public int getWalkSteps(){
+        return this.walkSteps;
+    }
 
     public int getRunTime() {
         return this.runTime;
@@ -90,6 +97,7 @@ public class HealthDataItem {
         this.sleepTime = sleepTime;
     }
 
+
     @Override
     public String toString() {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
@@ -101,6 +109,7 @@ public class HealthDataItem {
                 ", runTime=" + runTime +
                 ", breathExTime=" + breathExTime +
                 ", sleepTime=" + sleepTime +
+                ", walkSteps=" + walkSteps +
                 '}';
     }
 

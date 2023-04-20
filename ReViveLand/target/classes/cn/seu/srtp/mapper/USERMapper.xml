@@ -120,4 +120,14 @@
         SELECT EXERCISE_STATUS FROM USER
         WHERE USER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid});
     </select>
+
+    <select id="GetHealthyUserLoginCount" resultType="cn.seu.srtp.pojo.User">
+        SELECT USER_NAME, COUNT(*) AS COUNT FROM LOGIN_RECORD
+        WHERE
+            DATE BETWEEN #{date1} AND #{date2}
+        AND
+            USER_NAME IN (SELECT USER_NAME FROM USER
+                          WHERE SLEEP_STATUS = "ENOUGH" AND EXERCISE_STATUS = "ENOUGH")
+        GROUP BY USER_NAME;
+    </select>
 </mapper>

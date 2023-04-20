@@ -30,4 +30,7 @@ public interface HEALTH_DATAMapper {
      * @return
      */
     List<HealthDataItem> GetHealthDataItems(@Param("uuid") String uuid);
+
+    //查询缺乏锻炼的用户在某一天跑步时间的平均值
+    double GetLackExUserRunTimeAvg(@Param("date") String date);
 }

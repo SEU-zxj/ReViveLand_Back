@@ -53,4 +53,7 @@ public interface USERMapper {
     String GetSleepStatus(@Param("uuid") String uuid);
 
     String GetExerciseStatus(@Param("uuid") String uuid);
+
+    //查询所有状态健康的用户在Date1和Date2之间登录平台的次数
+    List<User> GetHealthyUserLoginCount(@Param("date1") String date1, @Param("date2") String date2);
 }

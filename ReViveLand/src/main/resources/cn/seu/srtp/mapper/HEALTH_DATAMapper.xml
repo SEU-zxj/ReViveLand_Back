@@ -20,17 +20,19 @@
         <result column="RUN_TIME" property="runTime"></result>
         <result column="BREATH_EXTIME" property="breathExTime"></result>
         <result column="SLEEP_TIME" property="sleepTime"></result>
+        <result column="WALK_STEPS" property="walkSteps"></result>
     </resultMap>
 
     <insert id="InsertHealthDataItem">
-        INSERT INTO HEALTH_DATA (TIME, USER_NAME, WALKING_DISTANCE, WALK_TIME, RUN_TIME, BREATH_EXTIME, SLEEP_TIME)
+        INSERT INTO HEALTH_DATA (TIME, USER_NAME, WALKING_DISTANCE, WALK_TIME, RUN_TIME, BREATH_EXTIME, SLEEP_TIME, WLAK_STEPS)
         VALUES (#{item.time},
                 (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid}),
                 #{item.walkingDistance},
                 #{item.walkTime},
                 #{item.runTime},
                 #{item.breathExTime},
-                #{item.sleepTime})
+                #{item.sleepTime},
+                #{item.walkSteps})
     </insert>
     <select id="SelectRecentWalkingDistance" resultType="java.lang.Double">
         SELECT WALKING_DISTANCE FROM HEALTH_DATA
@@ -77,6 +79,12 @@
         SELECT * FROM HEALTH_DATA
         WHERE USER_NAME = (SELECT USER_NAME FROM LOGIN_RECORD WHERE ID = #{uuid})
         ORDER BY TIME DESC LIMIT 7;
+    </select>
+
+    <select id="GetLackExUserRunTimeAvg" resultType="java.lang.Double">
+        SELECT AVG(RUN_TIME) FROM HEALTH_DATA
+        WHERE TIME = #{date}
+          AND USER_NAME IN (SELECT USER_NAME FROM USER WHERE EXERCISE_STATUS = "LACK");
     </select>
 
 </mapper>
